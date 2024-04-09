@@ -40,7 +40,6 @@ while True:
 
 
 
-        # cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),3)
     cv2.imshow('video', img)
     cv2.imshow('video TH', imgDil)
     cv2.waitKey(10)
