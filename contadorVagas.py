@@ -38,8 +38,6 @@ while True:
     cv2.rectangle(img,(90,0),(415,60),(255,0,0),-1)
     cv2.putText(img,f'LIVRE: {qtVagasAbertas}/8',(95,45),cv2.FONT_HERSHEY_SIMPLEX,1.5,(255,255,255),5)
 
-
-
     cv2.imshow('video', img)
     cv2.imshow('video TH', imgDil)
     cv2.waitKey(10)
