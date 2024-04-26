@@ -21,7 +21,7 @@ vaga8 = [1072, 404, 112, 219]
 
 vagas = [vaga1,vaga2,vaga3,vaga4,vaga5,vaga6,vaga7,vaga8]
 
-video = cv2.VideoCapture('video.mp4')
+video = cv2.VideoCapture('video2.mp4')
 
 while True:
     check,img = video.read()
@@ -44,8 +44,8 @@ while True:
             cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 3)
             qtVagasAbertas +=1
 
-    cv2.rectangle(img,(90,0),(415,60),(255,0,0),-1)
-    cv2.putText(img,f'LIVRE: {qtVagasAbertas}/8',(95,45),cv2.FONT_HERSHEY_SIMPLEX,1.5,(255,255,255),5)
+    cv2.rectangle(img,(90,0),(300,60),(255,0,0),-1)
+    cv2.putText(img,f'LIVRE: {qtVagasAbertas}/8',(95,45),cv2.FONT_HERSHEY_SIMPLEX,1,(255,255,255),5)
 
     cv2.imshow('video', img)
     cv2.imshow('video TH', imgDil)
