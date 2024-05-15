@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
-import datetime
+import logging
+
+logging.basicConfig(filename='parking_log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 vaga1 = [563, 381, 95, 203]
 vaga2 = [429, 362, 116, 219]
@@ -24,56 +26,45 @@ vagas = [vaga1,vaga2,vaga3,vaga4,vaga5,vaga6,vaga7,vaga8]
 
 video = cv2.VideoCapture('video2.mp4')
 
-# Inicializa o registro de log
-log_file = open("log.txt", "a")
-
-# Inicializa o estado anterior das vagas como vazio
-vagas_estado_anterior = [False] * len(vagas)
+estado_anterior = [0] * len(vagas)
 
 while True:
-    check,img = video.read()
+    ret, img = video.read()
+    if not ret:
+        break
 
-    if not check:
-        break  # Sai do loop quando o vídeo chegar ao fim
-
-    imgCinza = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-    imgTh = cv2.adaptiveThreshold(imgCinza,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,25,16)
-    imgBlur = cv2.medianBlur(imgTh,5)
-    kernel = np.ones((3,3),np.int8)
-    imgDil = cv2.dilate(imgBlur,kernel)
+    imgCinza = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    imgTh = cv2.adaptiveThreshold(imgCinza, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 16)
+    imgBlur = cv2.medianBlur(imgTh, 5)
+    kernel = np.ones((3, 3), np.int8)
+    imgDil = cv2.dilate(imgBlur, kernel)
 
     qtVagasAbertas = 0
-    for idx, (x,y,w,h) in enumerate(vagas):
-        recorte = imgDil[y:y+h,x:x+w]
+    for i, (x, y, w, h) in enumerate(vagas):
+        recorte = imgDil[y:y+h, x:x+w]
         qtPxBranco = cv2.countNonZero(recorte)
+        cv2.putText(img, str(qtPxBranco), (x, y+h-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 
-        # Verifica se houve alteração no estado da vaga
-        if qtPxBranco > 3000 != vagas_estado_anterior[idx]:
-            vagas_estado_anterior[idx] = qtPxBranco > 3000
+        if qtPxBranco > 3000 and estado_anterior[i] == 0:
+            logging.info(f'Vaga {i+1} preenchida.')
+            estado_anterior[i] = 1
+        elif qtPxBranco <= 3000 and estado_anterior[i] == 1:
+            logging.info(f'Vaga {i+1} liberada.')
+            estado_anterior[i] = 0
 
-            # Registra a alteração no log
-            if vagas_estado_anterior[idx] == False and qtPxBranco > 3000:
-                log_file.write(f"Vaga {idx+1} desocupada em {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-
-        # Desenha retângulo na vaga
-        if qtPxBranco > 3000:
-            cv2.rectangle(img, (x,y), (x + w, y + h), (0, 0, 255), 3)
-        else:
+        if qtPxBranco <= 3000:
             cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 3)
             qtVagasAbertas += 1
+        else:
+            cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 3)
 
-    # Mostra quantidade de vagas livres
-    cv2.rectangle(img,(90,0),(300,60),(255,0,0),-1)
-    cv2.putText(img,f'LIVRE: {qtVagasAbertas}/8',(95,45),cv2.FONT_HERSHEY_SIMPLEX,1,(255,255,255),5)
+    cv2.rectangle(img, (90, 0), (300, 60), (255, 0, 0), -1)
+    cv2.putText(img, f'LIVRE: {qtVagasAbertas}/8', (95, 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 5)
 
     cv2.imshow('video', img)
     cv2.imshow('video TH', imgDil)
-
-    key = cv2.waitKey(10)
-    if key == ord('q'):
+    if cv2.waitKey(10) == 27: 
         break
 
-# Fecha o arquivo de log e libera o vídeo
-log_file.close()
 video.release()
 cv2.destroyAllWindows()
