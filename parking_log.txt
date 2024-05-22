@@ -1,2 +1,40 @@
 2024-05-14 20:21:57,399 - Vaga 1 preenchida.
 2024-05-14 20:22:52,291 - Vaga 1 preenchida.
+2024-05-21 19:58:34,768 - Vaga 1 preenchida.
+2024-05-22 20:13:22,429 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 20:13:22,429 - [33mPress CTRL+C to quit[0m
+2024-05-22 20:13:22,429 -  * Restarting with stat
+2024-05-22 20:13:23,672 -  * Debugger is active!
+2024-05-22 20:13:23,672 -  * Debugger PIN: 847-979-700
+2024-05-22 20:19:17,310 - 127.0.0.1 - - [22/May/2024 20:19:17] "GET / HTTP/1.1" 200 -
+2024-05-22 20:19:17,344 - 127.0.0.1 - - [22/May/2024 20:19:17] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:19:17,367 - 127.0.0.1 - - [22/May/2024 20:19:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 20:23:14,546 - 127.0.0.1 - - [22/May/2024 20:23:14] "GET / HTTP/1.1" 200 -
+2024-05-22 20:23:14,559 - 127.0.0.1 - - [22/May/2024 20:23:14] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:23:26,925 - 127.0.0.1 - - [22/May/2024 20:23:26] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:31:51,043 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 20:31:51,044 - [33mPress CTRL+C to quit[0m
+2024-05-22 20:31:51,047 -  * Restarting with stat
+2024-05-22 20:31:52,194 -  * Debugger is active!
+2024-05-22 20:31:52,200 -  * Debugger PIN: 847-979-700
+2024-05-22 20:32:06,204 - 127.0.0.1 - - [22/May/2024 20:32:06] "GET / HTTP/1.1" 200 -
+2024-05-22 20:32:06,307 - 127.0.0.1 - - [22/May/2024 20:32:06] "GET /static/script.js HTTP/1.1" 200 -
+2024-05-22 20:32:06,358 - 127.0.0.1 - - [22/May/2024 20:32:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 20:32:08,148 - 127.0.0.1 - - [22/May/2024 20:32:08] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:32:08,244 - 127.0.0.1 - - [22/May/2024 20:32:08] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:32:14,210 - Vaga 1 preenchida.
+2024-05-22 20:32:19,156 - 127.0.0.1 - - [22/May/2024 20:32:19] "GET /stop HTTP/1.1" 200 -
+2024-05-22 20:32:20,363 - 127.0.0.1 - - [22/May/2024 20:32:20] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:32:20,404 - 127.0.0.1 - - [22/May/2024 20:32:20] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:32:20,922 - 127.0.0.1 - - [22/May/2024 20:32:20] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:32:22,021 - 127.0.0.1 - - [22/May/2024 20:32:22] "GET /stop HTTP/1.1" 200 -
+2024-05-22 20:32:23,442 - 127.0.0.1 - - [22/May/2024 20:32:23] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:32:23,479 - 127.0.0.1 - - [22/May/2024 20:32:23] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:32:42,735 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 20:32:42,736 - [33mPress CTRL+C to quit[0m
+2024-05-22 20:32:42,740 -  * Restarting with stat
+2024-05-22 20:32:43,947 -  * Debugger is active!
+2024-05-22 20:32:43,953 -  * Debugger PIN: 847-979-700
