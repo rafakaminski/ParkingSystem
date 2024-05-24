@@ -38,3 +38,722 @@
 2024-05-22 20:32:42,740 -  * Restarting with stat
 2024-05-22 20:32:43,947 -  * Debugger is active!
 2024-05-22 20:32:43,953 -  * Debugger PIN: 847-979-700
+2024-05-22 20:33:54,403 - 127.0.0.1 - - [22/May/2024 20:33:54] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:35:27,240 - 127.0.0.1 - - [22/May/2024 20:35:27] "GET / HTTP/1.1" 200 -
+2024-05-22 20:35:27,314 - 127.0.0.1 - - [22/May/2024 20:35:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-22 20:35:29,700 - 127.0.0.1 - - [22/May/2024 20:35:29] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:29,748 - 127.0.0.1 - - [22/May/2024 20:35:29] "GET /video_feed HTTP/1.1" 200 -
+2024-05-22 20:35:35,761 - Vaga 1 preenchida.
+2024-05-22 20:35:48,000 - 127.0.0.1 - - [22/May/2024 20:35:47] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:48,760 - 127.0.0.1 - - [22/May/2024 20:35:48] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:49,427 - 127.0.0.1 - - [22/May/2024 20:35:49] "GET /stop HTTP/1.1" 200 -
+2024-05-22 20:35:50,556 - 127.0.0.1 - - [22/May/2024 20:35:50] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:51,277 - 127.0.0.1 - - [22/May/2024 20:35:51] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:51,741 - 127.0.0.1 - - [22/May/2024 20:35:51] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:52,687 - 127.0.0.1 - - [22/May/2024 20:35:52] "GET /stop HTTP/1.1" 200 -
+2024-05-22 20:35:53,432 - 127.0.0.1 - - [22/May/2024 20:35:53] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:53,833 - 127.0.0.1 - - [22/May/2024 20:35:53] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:54,122 - 127.0.0.1 - - [22/May/2024 20:35:54] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:54,393 - 127.0.0.1 - - [22/May/2024 20:35:54] "GET /start HTTP/1.1" 200 -
+2024-05-22 20:35:54,611 - 127.0.0.1 - - [22/May/2024 20:35:54] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:27:25,115 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:27:25,115 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:27:25,119 -  * Restarting with stat
+2024-05-24 19:27:26,243 -  * Debugger is active!
+2024-05-24 19:27:26,256 -  * Debugger PIN: 847-979-700
+2024-05-24 19:27:42,401 - 127.0.0.1 - - [24/May/2024 19:27:42] "GET / HTTP/1.1" 200 -
+2024-05-24 19:27:42,464 - 127.0.0.1 - - [24/May/2024 19:27:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-24 19:27:43,367 - 127.0.0.1 - - [24/May/2024 19:27:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-24 19:27:45,743 - 127.0.0.1 - - [24/May/2024 19:27:45] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:27:45,844 - 127.0.0.1 - - [24/May/2024 19:27:45] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:27:52,081 - Vaga 1 preenchida.
+2024-05-24 19:29:41,301 - 127.0.0.1 - - [24/May/2024 19:29:41] "GET / HTTP/1.1" 200 -
+2024-05-24 19:29:41,314 - 127.0.0.1 - - [24/May/2024 19:29:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-24 19:29:43,517 - 127.0.0.1 - - [24/May/2024 19:29:43] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:29:43,523 - 127.0.0.1 - - [24/May/2024 19:29:43] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:29:45,014 - 127.0.0.1 - - [24/May/2024 19:29:45] "GET /stop HTTP/1.1" 200 -
+2024-05-24 19:29:45,830 - 127.0.0.1 - - [24/May/2024 19:29:45] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:29:55,913 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:29:55,914 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:29:55,917 -  * Restarting with stat
+2024-05-24 19:29:57,117 -  * Debugger is active!
+2024-05-24 19:29:57,123 -  * Debugger PIN: 847-979-700
+2024-05-24 19:29:57,751 - 127.0.0.1 - - [24/May/2024 19:29:57] "GET / HTTP/1.1" 200 -
+2024-05-24 19:29:57,823 - 127.0.0.1 - - [24/May/2024 19:29:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-24 19:29:59,174 - 127.0.0.1 - - [24/May/2024 19:29:59] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:29:59,223 - 127.0.0.1 - - [24/May/2024 19:29:59] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:30:05,353 - Vaga 1 preenchida.
+2024-05-24 19:30:42,785 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:30:42,785 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:30:42,788 -  * Restarting with stat
+2024-05-24 19:30:43,932 -  * Debugger is active!
+2024-05-24 19:30:43,948 -  * Debugger PIN: 847-979-700
+2024-05-24 19:30:44,019 - 127.0.0.1 - - [24/May/2024 19:30:44] "GET / HTTP/1.1" 200 -
+2024-05-24 19:30:44,080 - 127.0.0.1 - - [24/May/2024 19:30:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-24 19:30:45,398 - 127.0.0.1 - - [24/May/2024 19:30:45] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:30:45,446 - 127.0.0.1 - - [24/May/2024 19:30:45] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:30:51,457 - Vaga 1 preenchida.
+2024-05-24 19:32:09,506 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:32:09,506 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:32:09,509 -  * Restarting with stat
+2024-05-24 19:32:10,635 -  * Debugger is active!
+2024-05-24 19:32:10,650 -  * Debugger PIN: 847-979-700
+2024-05-24 19:32:24,658 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:32:24,658 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:32:24,661 -  * Restarting with stat
+2024-05-24 19:32:25,756 -  * Debugger is active!
+2024-05-24 19:32:25,756 -  * Debugger PIN: 847-979-700
+2024-05-24 19:32:31,640 - 127.0.0.1 - - [24/May/2024 19:32:31] "GET / HTTP/1.1" 200 -
+2024-05-24 19:32:31,700 - 127.0.0.1 - - [24/May/2024 19:32:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-24 19:32:33,095 - 127.0.0.1 - - [24/May/2024 19:32:33] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:32:33,143 - 127.0.0.1 - - [24/May/2024 19:32:33] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:32:34,901 - 127.0.0.1 - - [24/May/2024 19:32:34] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:32:35,949 - 127.0.0.1 - - [24/May/2024 19:32:35] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:32:36,598 - 127.0.0.1 - - [24/May/2024 19:32:36] "GET /start HTTP/1.1" 200 -
+2024-05-24 19:32:39,244 - Vaga 1 preenchida.
+2024-05-24 19:33:10,551 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:33:10,552 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:33:10,556 -  * Restarting with stat
+2024-05-24 19:33:11,711 -  * Debugger is active!
+2024-05-24 19:33:11,716 -  * Debugger PIN: 847-979-700
+2024-05-24 19:33:11,781 - 127.0.0.1 - - [24/May/2024 19:33:11] "GET / HTTP/1.1" 200 -
+2024-05-24 19:33:11,835 - 127.0.0.1 - - [24/May/2024 19:33:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-24 19:39:22,009 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:39:22,010 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:39:22,013 -  * Restarting with stat
+2024-05-24 19:39:23,156 -  * Debugger is active!
+2024-05-24 19:39:23,156 -  * Debugger PIN: 847-979-700
+2024-05-24 19:39:44,669 - 127.0.0.1 - - [24/May/2024 19:39:44] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:40:25,731 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 19:42:08,689 -  * Restarting with stat
+2024-05-24 19:42:09,812 -  * Debugger is active!
+2024-05-24 19:42:09,812 -  * Debugger PIN: 847-979-700
+2024-05-24 19:42:09,902 - 127.0.0.1 - - [24/May/2024 19:42:09] "GET / HTTP/1.1" 200 -
+2024-05-24 19:42:18,287 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:42:18,287 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:42:18,289 -  * Restarting with stat
+2024-05-24 19:42:19,386 -  * Debugger is active!
+2024-05-24 19:42:19,392 -  * Debugger PIN: 847-979-700
+2024-05-24 19:42:22,529 - 127.0.0.1 - - [24/May/2024 19:42:22] "GET / HTTP/1.1" 200 -
+2024-05-24 19:42:24,612 - 127.0.0.1 - - [24/May/2024 19:42:24] "[31m[1mPOST /start HTTP/1.1[0m" 405 -
+2024-05-24 19:42:24,622 - 127.0.0.1 - - [24/May/2024 19:42:24] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:42:27,667 - 127.0.0.1 - - [24/May/2024 19:42:27] "[31m[1mPOST /stop HTTP/1.1[0m" 405 -
+2024-05-24 19:42:28,516 - 127.0.0.1 - - [24/May/2024 19:42:28] "[31m[1mPOST /start HTTP/1.1[0m" 405 -
+2024-05-24 19:43:13,737 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 19:44:47,838 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:44:47,838 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:44:47,841 -  * Restarting with stat
+2024-05-24 19:44:48,978 -  * Debugger is active!
+2024-05-24 19:44:48,994 -  * Debugger PIN: 847-979-700
+2024-05-24 19:44:55,285 - 127.0.0.1 - - [24/May/2024 19:44:55] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:44:56,564 - 127.0.0.1 - - [24/May/2024 19:44:56] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:44:57,195 - 127.0.0.1 - - [24/May/2024 19:44:57] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:44:57,611 - 127.0.0.1 - - [24/May/2024 19:44:57] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:44:57,851 - 127.0.0.1 - - [24/May/2024 19:44:57] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:44:58,251 - 127.0.0.1 - - [24/May/2024 19:44:58] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:44:58,859 - 127.0.0.1 - - [24/May/2024 19:44:58] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:44:59,387 - 127.0.0.1 - - [24/May/2024 19:44:59] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:44:59,771 - 127.0.0.1 - - [24/May/2024 19:44:59] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:45:00,083 - 127.0.0.1 - - [24/May/2024 19:45:00] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:45:14,340 - 127.0.0.1 - - [24/May/2024 19:45:14] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:45:14,763 - 127.0.0.1 - - [24/May/2024 19:45:14] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:45:25,886 - 127.0.0.1 - - [24/May/2024 19:45:25] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:45:25,943 - 127.0.0.1 - - [24/May/2024 19:45:25] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:45:32,429 - Vaga 1 preenchida.
+2024-05-24 19:45:49,124 - 127.0.0.1 - - [24/May/2024 19:45:49] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:45:49,643 - 127.0.0.1 - - [24/May/2024 19:45:49] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:45:50,484 - 127.0.0.1 - - [24/May/2024 19:45:50] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:45:51,532 - 127.0.0.1 - - [24/May/2024 19:45:51] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:45:51,850 - 127.0.0.1 - - [24/May/2024 19:45:51] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:45:52,219 - 127.0.0.1 - - [24/May/2024 19:45:52] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:45:53,732 - 127.0.0.1 - - [24/May/2024 19:45:53] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:18,410 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:47:18,411 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:47:18,414 -  * Restarting with stat
+2024-05-24 19:47:19,507 -  * Debugger is active!
+2024-05-24 19:47:19,523 -  * Debugger PIN: 847-979-700
+2024-05-24 19:47:26,979 - 127.0.0.1 - - [24/May/2024 19:47:26] "GET / HTTP/1.1" 200 -
+2024-05-24 19:47:28,430 - 127.0.0.1 - - [24/May/2024 19:47:28] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:28,479 - 127.0.0.1 - - [24/May/2024 19:47:28] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:47:29,772 - 127.0.0.1 - - [24/May/2024 19:47:29] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:47:30,795 - 127.0.0.1 - - [24/May/2024 19:47:30] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:30,832 - 127.0.0.1 - - [24/May/2024 19:47:30] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:47:31,995 - 127.0.0.1 - - [24/May/2024 19:47:31] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:47:32,834 - 127.0.0.1 - - [24/May/2024 19:47:32] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:32,872 - 127.0.0.1 - - [24/May/2024 19:47:32] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:47:34,594 - 127.0.0.1 - - [24/May/2024 19:47:34] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:36,050 - 127.0.0.1 - - [24/May/2024 19:47:36] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:47:37,035 - 127.0.0.1 - - [24/May/2024 19:47:37] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:47:37,580 - 127.0.0.1 - - [24/May/2024 19:47:37] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:37,614 - 127.0.0.1 - - [24/May/2024 19:47:37] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:47:37,970 - Vaga 1 preenchida.
+2024-05-24 19:47:39,283 - 127.0.0.1 - - [24/May/2024 19:47:39] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:40,716 - 127.0.0.1 - - [24/May/2024 19:47:40] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:47:42,443 - 127.0.0.1 - - [24/May/2024 19:47:42] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:42,480 - 127.0.0.1 - - [24/May/2024 19:47:42] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:47:43,380 - 127.0.0.1 - - [24/May/2024 19:47:43] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:47:45,155 - 127.0.0.1 - - [24/May/2024 19:47:45] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:47:45,179 - 127.0.0.1 - - [24/May/2024 19:47:45] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:47:46,873 - 127.0.0.1 - - [24/May/2024 19:47:46] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:49:57,486 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:49:57,487 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:49:57,490 -  * Restarting with stat
+2024-05-24 19:49:58,607 -  * Debugger is active!
+2024-05-24 19:49:58,607 -  * Debugger PIN: 847-979-700
+2024-05-24 19:50:04,009 - 127.0.0.1 - - [24/May/2024 19:50:04] "GET / HTTP/1.1" 200 -
+2024-05-24 19:50:05,326 - 127.0.0.1 - - [24/May/2024 19:50:05] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:50:11,816 - 127.0.0.1 - - [24/May/2024 19:50:11] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:50:52,013 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:50:52,014 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:50:52,016 -  * Restarting with stat
+2024-05-24 19:50:53,133 -  * Debugger is active!
+2024-05-24 19:50:53,133 -  * Debugger PIN: 847-979-700
+2024-05-24 19:50:55,592 - 127.0.0.1 - - [24/May/2024 19:50:55] "GET / HTTP/1.1" 200 -
+2024-05-24 19:50:57,293 - 127.0.0.1 - - [24/May/2024 19:50:57] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:50:57,342 - 127.0.0.1 - - [24/May/2024 19:50:57] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:51:01,821 - 127.0.0.1 - - [24/May/2024 19:51:01] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:51:02,439 - 127.0.0.1 - - [24/May/2024 19:51:02] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:51:02,477 - 127.0.0.1 - - [24/May/2024 19:51:02] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:51:04,030 - Vaga 1 preenchida.
+2024-05-24 19:51:08,310 - 127.0.0.1 - - [24/May/2024 19:51:08] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:51:16,588 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 19:51:16,589 - [33mPress CTRL+C to quit[0m
+2024-05-24 19:51:16,592 -  * Restarting with stat
+2024-05-24 19:51:17,733 -  * Debugger is active!
+2024-05-24 19:51:17,739 -  * Debugger PIN: 847-979-700
+2024-05-24 19:51:20,751 - 127.0.0.1 - - [24/May/2024 19:51:20] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:51:20,803 - 127.0.0.1 - - [24/May/2024 19:51:20] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:51:21,997 - 127.0.0.1 - - [24/May/2024 19:51:21] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:51:23,245 - 127.0.0.1 - - [24/May/2024 19:51:23] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:51:24,391 - 127.0.0.1 - - [24/May/2024 19:51:24] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:51:24,427 - 127.0.0.1 - - [24/May/2024 19:51:24] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:51:25,111 - 127.0.0.1 - - [24/May/2024 19:51:25] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:51:25,638 - 127.0.0.1 - - [24/May/2024 19:51:25] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:51:26,479 - 127.0.0.1 - - [24/May/2024 19:51:26] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:51:26,515 - 127.0.0.1 - - [24/May/2024 19:51:26] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:51:27,229 - 127.0.0.1 - - [24/May/2024 19:51:27] "POST /stop HTTP/1.1" 200 -
+2024-05-24 19:51:40,582 - 127.0.0.1 - - [24/May/2024 19:51:40] "POST /start HTTP/1.1" 200 -
+2024-05-24 19:51:40,618 - 127.0.0.1 - - [24/May/2024 19:51:40] "GET /video_feed HTTP/1.1" 200 -
+2024-05-24 19:51:42,208 - Vaga 1 preenchida.
+2024-05-24 19:58:39,450 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 19:58:46,022 -  * Restarting with stat
+2024-05-24 20:04:13,325 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:04:13,326 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:04:13,329 -  * Restarting with stat
+2024-05-24 20:04:14,533 -  * Debugger is active!
+2024-05-24 20:04:14,539 -  * Debugger PIN: 847-979-700
+2024-05-24 20:04:20,280 - 127.0.0.1 - - [24/May/2024 20:04:20] "GET / HTTP/1.1" 200 -
+2024-05-24 20:06:24,065 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:06:24,065 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:06:24,068 -  * Restarting with stat
+2024-05-24 20:06:25,236 -  * Debugger is active!
+2024-05-24 20:06:25,236 -  * Debugger PIN: 847-979-700
+2024-05-24 20:06:26,966 - 127.0.0.1 - - [24/May/2024 20:06:26] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:06:27,038 - Estacionamento 1 - Vaga 2 preenchida.
+2024-05-24 20:06:27,038 - Estacionamento 1 - Vaga 3 preenchida.
+2024-05-24 20:06:27,054 - 127.0.0.1 - - [24/May/2024 20:06:27] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-05-24 20:06:29,179 - Estacionamento 1 - Vaga 3 liberada.
+2024-05-24 20:06:31,451 - 127.0.0.1 - - [24/May/2024 20:06:31] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:06:31,497 - Estacionamento 2 - Vaga 6 preenchida.
+2024-05-24 20:06:31,515 - 127.0.0.1 - - [24/May/2024 20:06:31] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:06:32,038 - Estacionamento 1 - Vaga 2 liberada.
+2024-05-24 20:06:34,546 - Estacionamento 2 - Vaga 6 liberada.
+2024-05-24 20:07:03,800 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:07:06,282 -  * Restarting with stat
+2024-05-24 20:07:07,449 -  * Debugger is active!
+2024-05-24 20:07:07,455 -  * Debugger PIN: 847-979-700
+2024-05-24 20:07:11,949 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:07:11,950 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:07:11,953 -  * Restarting with stat
+2024-05-24 20:07:13,169 -  * Debugger is active!
+2024-05-24 20:07:13,169 -  * Debugger PIN: 847-979-700
+2024-05-24 20:07:15,241 - 127.0.0.1 - - [24/May/2024 20:07:15] "GET / HTTP/1.1" 200 -
+2024-05-24 20:07:16,530 - 127.0.0.1 - - [24/May/2024 20:07:16] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:22,787 - 127.0.0.1 - - [24/May/2024 20:07:22] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:22,851 - 127.0.0.1 - - [24/May/2024 20:07:22] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:25,298 - 127.0.0.1 - - [24/May/2024 20:07:25] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:26,442 - 127.0.0.1 - - [24/May/2024 20:07:26] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:27,593 - 127.0.0.1 - - [24/May/2024 20:07:27] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:07:29,129 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:07:31,851 - 127.0.0.1 - - [24/May/2024 20:07:31] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:32,631 - 127.0.0.1 - - [24/May/2024 20:07:32] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:33,619 - 127.0.0.1 - - [24/May/2024 20:07:33] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:34,785 - 127.0.0.1 - - [24/May/2024 20:07:34] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:07:35,801 - 127.0.0.1 - - [24/May/2024 20:07:35] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:36,314 - 127.0.0.1 - - [24/May/2024 20:07:36] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:36,370 - 127.0.0.1 - - [24/May/2024 20:07:36] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:37,370 - 127.0.0.1 - - [24/May/2024 20:07:37] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:37,850 - 127.0.0.1 - - [24/May/2024 20:07:37] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:38,266 - 127.0.0.1 - - [24/May/2024 20:07:38] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:39,129 - 127.0.0.1 - - [24/May/2024 20:07:39] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:40,258 - 127.0.0.1 - - [24/May/2024 20:07:40] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:40,320 - 127.0.0.1 - - [24/May/2024 20:07:40] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:41,199 - 127.0.0.1 - - [24/May/2024 20:07:41] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:41,882 - 127.0.0.1 - - [24/May/2024 20:07:41] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:41,941 - 127.0.0.1 - - [24/May/2024 20:07:41] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:42,657 - 127.0.0.1 - - [24/May/2024 20:07:42] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:43,042 - 127.0.0.1 - - [24/May/2024 20:07:43] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:43,101 - 127.0.0.1 - - [24/May/2024 20:07:43] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:43,736 - 127.0.0.1 - - [24/May/2024 20:07:43] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:44,050 - 127.0.0.1 - - [24/May/2024 20:07:44] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:44,110 - 127.0.0.1 - - [24/May/2024 20:07:44] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:44,329 - 127.0.0.1 - - [24/May/2024 20:07:44] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:44,562 - 127.0.0.1 - - [24/May/2024 20:07:44] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:44,619 - 127.0.0.1 - - [24/May/2024 20:07:44] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:44,792 - 127.0.0.1 - - [24/May/2024 20:07:44] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,010 - 127.0.0.1 - - [24/May/2024 20:07:45] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,069 - 127.0.0.1 - - [24/May/2024 20:07:45] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,200 - 127.0.0.1 - - [24/May/2024 20:07:45] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,418 - 127.0.0.1 - - [24/May/2024 20:07:45] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,475 - 127.0.0.1 - - [24/May/2024 20:07:45] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,616 - 127.0.0.1 - - [24/May/2024 20:07:45] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,810 - 127.0.0.1 - - [24/May/2024 20:07:45] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:45,870 - 127.0.0.1 - - [24/May/2024 20:07:45] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:46,001 - 127.0.0.1 - - [24/May/2024 20:07:46] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:46,210 - 127.0.0.1 - - [24/May/2024 20:07:46] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:46,269 - 127.0.0.1 - - [24/May/2024 20:07:46] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:46,434 - 127.0.0.1 - - [24/May/2024 20:07:46] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:46,635 - 127.0.0.1 - - [24/May/2024 20:07:46] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:46,872 - 127.0.0.1 - - [24/May/2024 20:07:46] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:47,090 - 127.0.0.1 - - [24/May/2024 20:07:47] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:47,150 - 127.0.0.1 - - [24/May/2024 20:07:47] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:47,367 - 127.0.0.1 - - [24/May/2024 20:07:47] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:47,792 - 127.0.0.1 - - [24/May/2024 20:07:47] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:48,074 - 127.0.0.1 - - [24/May/2024 20:07:48] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:07:48,129 - 127.0.0.1 - - [24/May/2024 20:07:48] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:07:48,329 - 127.0.0.1 - - [24/May/2024 20:07:48] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:07:48,929 - 127.0.0.1 - - [24/May/2024 20:07:48] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:07:49,354 - 127.0.0.1 - - [24/May/2024 20:07:49] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:49,930 - 127.0.0.1 - - [24/May/2024 20:07:49] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:50,628 - 127.0.0.1 - - [24/May/2024 20:07:50] "GET / HTTP/1.1" 200 -
+2024-05-24 20:07:51,727 - 127.0.0.1 - - [24/May/2024 20:07:51] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:52,697 - 127.0.0.1 - - [24/May/2024 20:07:52] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:07:59,402 - 127.0.0.1 - - [24/May/2024 20:07:59] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:08:49,842 - 127.0.0.1 - - [24/May/2024 20:08:49] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:08:53,354 - 127.0.0.1 - - [24/May/2024 20:08:53] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:08:53,824 - 127.0.0.1 - - [24/May/2024 20:08:53] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:08:54,793 - 127.0.0.1 - - [24/May/2024 20:08:54] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:08:54,865 - 127.0.0.1 - - [24/May/2024 20:08:54] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:08:57,447 - 127.0.0.1 - - [24/May/2024 20:08:57] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:09:01,382 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:09:12,798 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:09:14,839 -  * Restarting with stat
+2024-05-24 20:09:15,955 -  * Debugger is active!
+2024-05-24 20:09:15,955 -  * Debugger PIN: 847-979-700
+2024-05-24 20:09:31,869 - 127.0.0.1 - - [24/May/2024 20:09:31] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:09:32,766 - 127.0.0.1 - - [24/May/2024 20:09:32] "GET / HTTP/1.1" 200 -
+2024-05-24 20:09:33,638 - 127.0.0.1 - - [24/May/2024 20:09:33] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:09:37,272 - 127.0.0.1 - - [24/May/2024 20:09:37] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:09:37,326 - Estacionamento 2 - Vaga 6 preenchida.
+2024-05-24 20:09:37,342 - 127.0.0.1 - - [24/May/2024 20:09:37] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:09:38,295 - 127.0.0.1 - - [24/May/2024 20:09:38] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:09:39,760 - 127.0.0.1 - - [24/May/2024 20:09:39] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:09:40,069 - Estacionamento 2 - Vaga 6 liberada.
+2024-05-24 20:09:40,535 - 127.0.0.1 - - [24/May/2024 20:09:40] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:09:41,559 - 127.0.0.1 - - [24/May/2024 20:09:41] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:09:42,417 - 127.0.0.1 - - [24/May/2024 20:09:42] "GET / HTTP/1.1" 200 -
+2024-05-24 20:09:43,614 - 127.0.0.1 - - [24/May/2024 20:09:43] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:10:17,513 - 127.0.0.1 - - [24/May/2024 20:10:17] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:10:17,578 - Estacionamento 2 - Vaga 6 preenchida.
+2024-05-24 20:10:17,595 - 127.0.0.1 - - [24/May/2024 20:10:17] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:10:20,390 - Estacionamento 2 - Vaga 6 liberada.
+2024-05-24 20:10:37,182 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:10:40,144 -  * Restarting with stat
+2024-05-24 20:10:41,244 -  * Debugger is active!
+2024-05-24 20:10:41,244 -  * Debugger PIN: 847-979-700
+2024-05-24 20:10:51,126 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:10:51,126 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:10:51,129 -  * Restarting with stat
+2024-05-24 20:10:52,284 -  * Debugger is active!
+2024-05-24 20:10:52,284 -  * Debugger PIN: 847-979-700
+2024-05-24 20:11:01,920 - 127.0.0.1 - - [24/May/2024 20:11:01] "GET / HTTP/1.1" 200 -
+2024-05-24 20:11:02,846 - 127.0.0.1 - - [24/May/2024 20:11:02] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:11:05,207 - 127.0.0.1 - - [24/May/2024 20:11:05] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:11:05,277 - 127.0.0.1 - - [24/May/2024 20:11:05] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:11:11,753 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:12:20,709 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:12:23,321 -  * Restarting with stat
+2024-05-24 20:12:24,427 -  * Debugger is active!
+2024-05-24 20:12:24,427 -  * Debugger PIN: 847-979-700
+2024-05-24 20:12:26,747 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:12:26,747 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:12:26,749 -  * Restarting with stat
+2024-05-24 20:12:27,910 -  * Debugger is active!
+2024-05-24 20:12:27,915 -  * Debugger PIN: 847-979-700
+2024-05-24 20:12:33,951 - 127.0.0.1 - - [24/May/2024 20:12:33] "GET / HTTP/1.1" 200 -
+2024-05-24 20:12:35,446 - 127.0.0.1 - - [24/May/2024 20:12:35] "GET / HTTP/1.1" 200 -
+2024-05-24 20:12:37,327 - 127.0.0.1 - - [24/May/2024 20:12:37] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:12:42,038 - 127.0.0.1 - - [24/May/2024 20:12:42] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:12:52,560 - 127.0.0.1 - - [24/May/2024 20:12:52] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:12:52,615 - Estacionamento 2 - Vaga 6 preenchida.
+2024-05-24 20:12:52,631 - 127.0.0.1 - - [24/May/2024 20:12:52] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:12:55,333 - Estacionamento 2 - Vaga 6 liberada.
+2024-05-24 20:12:58,976 - 127.0.0.1 - - [24/May/2024 20:12:58] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:13:44,448 - 127.0.0.1 - - [24/May/2024 20:13:44] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:13:54,508 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:13:58,713 -  * Restarting with stat
+2024-05-24 20:13:59,860 -  * Debugger is active!
+2024-05-24 20:13:59,865 -  * Debugger PIN: 847-979-700
+2024-05-24 20:13:59,927 - 127.0.0.1 - - [24/May/2024 20:13:59] "GET / HTTP/1.1" 200 -
+2024-05-24 20:14:07,999 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:14:08,000 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:14:08,003 -  * Restarting with stat
+2024-05-24 20:14:09,124 -  * Debugger is active!
+2024-05-24 20:14:09,140 -  * Debugger PIN: 847-979-700
+2024-05-24 20:14:17,435 - 127.0.0.1 - - [24/May/2024 20:14:17] "[35m[1mPOST /start/0 HTTP/1.1[0m" 500 -
+2024-05-24 20:14:48,204 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:14:48,205 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:14:48,208 -  * Restarting with stat
+2024-05-24 20:14:49,478 -  * Debugger is active!
+2024-05-24 20:14:49,478 -  * Debugger PIN: 847-979-700
+2024-05-24 20:14:49,951 - 127.0.0.1 - - [24/May/2024 20:14:49] "GET / HTTP/1.1" 200 -
+2024-05-24 20:14:53,166 - 127.0.0.1 - - [24/May/2024 20:14:53] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:14:57,048 - 127.0.0.1 - - [24/May/2024 20:14:57] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:14:57,102 - Estacionamento 2 - Vaga 6 preenchida.
+2024-05-24 20:14:57,118 - 127.0.0.1 - - [24/May/2024 20:14:57] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:14:59,987 - Estacionamento 2 - Vaga 6 liberada.
+2024-05-24 20:15:32,243 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:15:35,259 -  * Restarting with stat
+2024-05-24 20:15:36,370 -  * Debugger is active!
+2024-05-24 20:15:36,386 -  * Debugger PIN: 847-979-700
+2024-05-24 20:15:42,948 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:15:42,948 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:15:42,952 -  * Restarting with stat
+2024-05-24 20:15:44,162 -  * Debugger is active!
+2024-05-24 20:15:44,178 -  * Debugger PIN: 847-979-700
+2024-05-24 20:15:46,586 - 127.0.0.1 - - [24/May/2024 20:15:46] "GET / HTTP/1.1" 200 -
+2024-05-24 20:15:47,814 - 127.0.0.1 - - [24/May/2024 20:15:47] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:15:51,122 - 127.0.0.1 - - [24/May/2024 20:15:51] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:15:51,190 - 127.0.0.1 - - [24/May/2024 20:15:51] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:15:57,496 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:19:19,353 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:19:22,295 -  * Restarting with stat
+2024-05-24 20:19:23,393 -  * Debugger is active!
+2024-05-24 20:19:23,398 -  * Debugger PIN: 847-979-700
+2024-05-24 20:19:31,358 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:19:31,358 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:19:31,361 -  * Restarting with stat
+2024-05-24 20:19:32,512 -  * Debugger is active!
+2024-05-24 20:19:32,526 -  * Debugger PIN: 847-979-700
+2024-05-24 20:19:35,802 - 127.0.0.1 - - [24/May/2024 20:19:35] "GET / HTTP/1.1" 200 -
+2024-05-24 20:19:37,189 - Processo 1 iniciado
+2024-05-24 20:19:37,190 - 127.0.0.1 - - [24/May/2024 20:19:37] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:20:33,056 - Processo 2 iniciado
+2024-05-24 20:20:33,057 - 127.0.0.1 - - [24/May/2024 20:20:33] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:20:33,099 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:20:33,134 - 127.0.0.1 - - [24/May/2024 20:20:33] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:20:34,608 - Processo 1 iniciado
+2024-05-24 20:20:34,608 - 127.0.0.1 - - [24/May/2024 20:20:34] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:20:39,545 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:20:49,733 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:20:55,456 - Processo 1 iniciado
+2024-05-24 20:20:55,457 - 127.0.0.1 - - [24/May/2024 20:20:55] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:20:56,755 - 127.0.0.1 - - [24/May/2024 20:20:56] "GET / HTTP/1.1" 200 -
+2024-05-24 20:20:57,749 - Processo 1 iniciado
+2024-05-24 20:20:57,750 - 127.0.0.1 - - [24/May/2024 20:20:57] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:21:01,222 - Processo 1 parado
+2024-05-24 20:21:01,223 - 127.0.0.1 - - [24/May/2024 20:21:01] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:21:01,855 - Processo 1 iniciado
+2024-05-24 20:21:01,856 - 127.0.0.1 - - [24/May/2024 20:21:01] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:22:06,725 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:22:06,726 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:22:06,728 -  * Restarting with stat
+2024-05-24 20:22:07,940 -  * Debugger is active!
+2024-05-24 20:22:07,945 -  * Debugger PIN: 847-979-700
+2024-05-24 20:22:14,776 - 127.0.0.1 - - [24/May/2024 20:22:14] "GET / HTTP/1.1" 200 -
+2024-05-24 20:23:44,980 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:23:51,245 -  * Restarting with stat
+2024-05-24 20:23:52,380 -  * Debugger is active!
+2024-05-24 20:23:52,386 -  * Debugger PIN: 847-979-700
+2024-05-24 20:24:02,200 - 127.0.0.1 - - [24/May/2024 20:24:02] "GET / HTTP/1.1" 200 -
+2024-05-24 20:24:03,890 - 127.0.0.1 - - [24/May/2024 20:24:03] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:24:05,308 - 127.0.0.1 - - [24/May/2024 20:24:05] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:24:05,379 - 127.0.0.1 - - [24/May/2024 20:24:05] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:24:11,847 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:26:53,355 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:26:53,356 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:26:53,358 -  * Restarting with stat
+2024-05-24 20:26:54,553 -  * Debugger is active!
+2024-05-24 20:26:54,559 -  * Debugger PIN: 847-979-700
+2024-05-24 20:27:02,646 - 127.0.0.1 - - [24/May/2024 20:27:02] "GET / HTTP/1.1" 200 -
+2024-05-24 20:27:03,928 - 127.0.0.1 - - [24/May/2024 20:27:03] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:27:24,734 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:27:24,734 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:27:24,737 -  * Restarting with stat
+2024-05-24 20:27:25,972 -  * Debugger is active!
+2024-05-24 20:27:25,972 -  * Debugger PIN: 847-979-700
+2024-05-24 20:27:29,611 - 127.0.0.1 - - [24/May/2024 20:27:29] "GET / HTTP/1.1" 200 -
+2024-05-24 20:27:31,215 - 127.0.0.1 - - [24/May/2024 20:27:31] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:27:33,393 - 127.0.0.1 - - [24/May/2024 20:27:33] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:27:33,463 - 127.0.0.1 - - [24/May/2024 20:27:33] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:27:40,171 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:27:50,816 - 127.0.0.1 - - [24/May/2024 20:27:50] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:27:51,400 - 127.0.0.1 - - [24/May/2024 20:27:51] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:27:52,463 - 127.0.0.1 - - [24/May/2024 20:27:52] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:27:53,265 - 127.0.0.1 - - [24/May/2024 20:27:53] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:27:56,849 - 127.0.0.1 - - [24/May/2024 20:27:56] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:27:57,881 - 127.0.0.1 - - [24/May/2024 20:27:57] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:28:00,752 - 127.0.0.1 - - [24/May/2024 20:28:00] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:28:01,680 - 127.0.0.1 - - [24/May/2024 20:28:01] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:28:02,255 - 127.0.0.1 - - [24/May/2024 20:28:02] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:28:03,408 - 127.0.0.1 - - [24/May/2024 20:28:03] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:28:05,087 - 127.0.0.1 - - [24/May/2024 20:28:05] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:28:06,400 - 127.0.0.1 - - [24/May/2024 20:28:06] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:28:23,656 - 127.0.0.1 - - [24/May/2024 20:28:23] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:28:25,367 - 127.0.0.1 - - [24/May/2024 20:28:25] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:28:26,181 - 127.0.0.1 - - [24/May/2024 20:28:26] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:28:27,230 - 127.0.0.1 - - [24/May/2024 20:28:27] "GET / HTTP/1.1" 200 -
+2024-05-24 20:28:28,166 - 127.0.0.1 - - [24/May/2024 20:28:28] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:28:33,315 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:28:33,316 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:28:33,318 -  * Restarting with stat
+2024-05-24 20:28:34,443 -  * Debugger is active!
+2024-05-24 20:28:34,443 -  * Debugger PIN: 847-979-700
+2024-05-24 20:28:36,477 - 127.0.0.1 - - [24/May/2024 20:28:36] "GET / HTTP/1.1" 200 -
+2024-05-24 20:28:38,632 - 127.0.0.1 - - [24/May/2024 20:28:38] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:28:42,497 - 127.0.0.1 - - [24/May/2024 20:28:42] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:28:42,564 - 127.0.0.1 - - [24/May/2024 20:28:42] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:28:49,138 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:31:52,602 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:31:52,602 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:31:52,605 -  * Restarting with stat
+2024-05-24 20:31:53,764 -  * Debugger is active!
+2024-05-24 20:31:53,772 -  * Debugger PIN: 847-979-700
+2024-05-24 20:31:58,690 - 127.0.0.1 - - [24/May/2024 20:31:58] "GET / HTTP/1.1" 200 -
+2024-05-24 20:31:59,830 - 127.0.0.1 - - [24/May/2024 20:31:59] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:31:59,900 - 127.0.0.1 - - [24/May/2024 20:31:59] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:32:01,174 - 127.0.0.1 - - [24/May/2024 20:32:01] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:32:01,249 - Estacionamento 1 - Vaga 4 preenchida.
+2024-05-24 20:32:01,249 - Estacionamento 1 - Vaga 6 preenchida.
+2024-05-24 20:32:01,262 - 127.0.0.1 - - [24/May/2024 20:32:01] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-05-24 20:32:08,086 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:32:08,361 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:32:54,031 - 127.0.0.1 - - [24/May/2024 20:32:54] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:35:37,592 -  * Detected change in 'C:\\Users\\rafael_libera\\Documents\\ParkingSystem\\contadorVagas.py', reloading
+2024-05-24 20:36:17,551 -  * Restarting with stat
+2024-05-24 20:36:18,734 -  * Debugger is active!
+2024-05-24 20:36:18,734 -  * Debugger PIN: 847-979-700
+2024-05-24 20:36:30,791 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:36:30,792 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:36:30,795 -  * Restarting with stat
+2024-05-24 20:36:31,963 -  * Debugger is active!
+2024-05-24 20:36:31,968 -  * Debugger PIN: 847-979-700
+2024-05-24 20:36:36,958 - 127.0.0.1 - - [24/May/2024 20:36:36] "GET / HTTP/1.1" 200 -
+2024-05-24 20:36:39,331 - Processo 1 iniciado
+2024-05-24 20:36:39,332 - 127.0.0.1 - - [24/May/2024 20:36:39] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:36:39,366 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:36:39,399 - Estacionamento 1 - Vaga 4 preenchida.
+2024-05-24 20:36:39,400 - Estacionamento 1 - Vaga 6 preenchida.
+2024-05-24 20:36:39,414 - 127.0.0.1 - - [24/May/2024 20:36:39] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-05-24 20:36:41,815 - Processo 2 iniciado
+2024-05-24 20:36:41,816 - 127.0.0.1 - - [24/May/2024 20:36:41] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:36:41,835 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:36:41,921 - 127.0.0.1 - - [24/May/2024 20:36:41] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:36:45,860 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:36:50,167 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:36:53,662 - Fim do vídeo: static/video.mp4
+2024-05-24 20:36:53,692 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:36:53,719 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:37:00,725 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:37:02,932 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:37:02,986 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:37:03,024 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:37:05,894 - Processo 2 parado
+2024-05-24 20:37:05,894 - 127.0.0.1 - - [24/May/2024 20:37:05] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:37:07,466 - Processo 1 parado
+2024-05-24 20:37:07,466 - 127.0.0.1 - - [24/May/2024 20:37:07] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:37:08,613 - Processo 1 iniciado
+2024-05-24 20:37:08,614 - 127.0.0.1 - - [24/May/2024 20:37:08] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:37:08,648 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:37:08,673 - Estacionamento 1 - Vaga 4 preenchida.
+2024-05-24 20:37:08,674 - Estacionamento 1 - Vaga 6 preenchida.
+2024-05-24 20:37:08,689 - 127.0.0.1 - - [24/May/2024 20:37:08] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-05-24 20:37:09,916 - Processo 2 iniciado
+2024-05-24 20:37:09,916 - 127.0.0.1 - - [24/May/2024 20:37:09] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:37:09,937 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:37:09,984 - 127.0.0.1 - - [24/May/2024 20:37:09] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:37:11,685 - Processo 2 iniciado
+2024-05-24 20:37:11,687 - 127.0.0.1 - - [24/May/2024 20:37:11] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:37:12,101 - Processo 2 iniciado
+2024-05-24 20:37:12,102 - 127.0.0.1 - - [24/May/2024 20:37:12] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:37:12,613 - Processo 2 parado
+2024-05-24 20:37:12,613 - 127.0.0.1 - - [24/May/2024 20:37:12] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:37:13,204 - Processo 2 iniciado
+2024-05-24 20:37:13,205 - 127.0.0.1 - - [24/May/2024 20:37:13] "POST /start/1 HTTP/1.1" 200 -
+2024-05-24 20:37:13,226 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:37:13,278 - 127.0.0.1 - - [24/May/2024 20:37:13] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-05-24 20:37:14,501 - Processo 1 parado
+2024-05-24 20:37:14,502 - 127.0.0.1 - - [24/May/2024 20:37:14] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:37:15,037 - Processo 1 iniciado
+2024-05-24 20:37:15,038 - 127.0.0.1 - - [24/May/2024 20:37:15] "POST /start/0 HTTP/1.1" 200 -
+2024-05-24 20:37:15,077 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:37:15,105 - Estacionamento 1 - Vaga 4 preenchida.
+2024-05-24 20:37:15,105 - Estacionamento 1 - Vaga 6 preenchida.
+2024-05-24 20:37:15,121 - 127.0.0.1 - - [24/May/2024 20:37:15] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-05-24 20:37:21,502 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:37:22,027 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:37:29,807 - Fim do vídeo: static/video.mp4
+2024-05-24 20:37:29,849 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:37:29,879 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:37:34,265 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:37:34,280 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:37:34,310 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:37:36,581 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:37:41,355 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:37:42,882 - Fim do vídeo: static/video.mp4
+2024-05-24 20:37:42,898 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:37:42,930 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:37:48,436 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:37:51,429 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:37:51,429 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:37:51,460 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:37:54,510 - Fim do vídeo: static/video.mp4
+2024-05-24 20:37:54,541 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:37:54,557 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:37:57,863 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:37:59,881 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:38:06,135 - Fim do vídeo: static/video.mp4
+2024-05-24 20:38:06,166 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:38:06,193 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:38:08,529 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:38:08,548 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:38:08,583 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:38:12,940 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:38:16,760 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:38:20,725 - Fim do vídeo: static/video.mp4
+2024-05-24 20:38:20,759 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:38:20,790 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:38:27,578 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:38:29,592 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:38:29,609 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:38:29,645 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:38:35,266 - Fim do vídeo: static/video.mp4
+2024-05-24 20:38:35,295 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:38:35,319 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:38:37,765 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:38:42,136 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:38:49,856 - Fim do vídeo: static/video.mp4
+2024-05-24 20:38:49,885 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:38:49,911 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:38:50,466 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:38:50,483 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:38:50,510 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:38:56,636 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:38:58,631 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:39:04,342 - Fim do vídeo: static/video.mp4
+2024-05-24 20:39:04,376 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:39:04,426 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:39:11,198 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:39:11,242 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:39:11,257 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:39:11,276 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:39:18,828 - Fim do vídeo: static/video.mp4
+2024-05-24 20:39:18,858 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:39:18,885 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:39:19,414 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:39:25,655 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:39:32,077 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:39:32,091 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:39:32,118 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:39:33,460 - Fim do vídeo: static/video.mp4
+2024-05-24 20:39:33,485 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:39:33,512 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:39:40,245 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:39:40,249 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:39:47,933 - Fim do vídeo: static/video.mp4
+2024-05-24 20:39:47,961 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:39:47,989 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:39:52,904 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:39:52,918 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:39:52,946 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:39:54,758 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:40:01,078 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:40:02,435 - Fim do vídeo: static/video.mp4
+2024-05-24 20:40:02,466 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:40:02,491 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:40:09,182 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:40:13,746 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:40:13,760 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:40:13,789 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:40:16,865 - Fim do vídeo: static/video.mp4
+2024-05-24 20:40:16,897 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:40:16,923 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:40:21,896 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:40:23,658 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:40:31,497 - Fim do vídeo: static/video.mp4
+2024-05-24 20:40:31,555 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:40:31,593 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:40:34,611 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:40:34,627 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:40:34,656 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:40:38,310 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:40:42,764 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:40:46,003 - Fim do vídeo: static/video.mp4
+2024-05-24 20:40:46,033 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:40:46,061 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:40:52,925 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:40:55,364 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:40:55,385 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:40:55,410 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:41:00,557 - Fim do vídeo: static/video.mp4
+2024-05-24 20:41:00,586 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:41:00,615 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:41:03,468 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:41:07,427 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:41:15,077 - Fim do vídeo: static/video.mp4
+2024-05-24 20:41:15,111 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:41:15,177 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:41:16,043 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:41:16,059 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:41:16,093 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:41:22,186 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:41:24,017 - Estacionamento 2 - Vaga 1 preenchida.
+2024-05-24 20:41:28,499 - Fim do vídeo: static/video.mp4
+2024-05-24 20:41:28,533 - Iniciando processamento do vídeo: static/video.mp4
+2024-05-24 20:41:28,565 - Estacionamento 1 - Vaga 5 liberada.
+2024-05-24 20:41:35,629 - Estacionamento 1 - Vaga 5 preenchida.
+2024-05-24 20:41:35,845 - Processo 1 parado
+2024-05-24 20:41:35,845 - 127.0.0.1 - - [24/May/2024 20:41:35] "POST /stop/0 HTTP/1.1" 200 -
+2024-05-24 20:41:35,991 - Fim do vídeo: static/video2.mp4
+2024-05-24 20:41:36,009 - Iniciando processamento do vídeo: static/video2.mp4
+2024-05-24 20:41:36,034 - Estacionamento 2 - Vaga 1 liberada.
+2024-05-24 20:41:36,689 - Processo 2 parado
+2024-05-24 20:41:36,690 - 127.0.0.1 - - [24/May/2024 20:41:36] "POST /stop/1 HTTP/1.1" 200 -
+2024-05-24 20:47:21,960 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 20:47:21,960 - [33mPress CTRL+C to quit[0m
+2024-05-24 20:47:21,962 -  * Restarting with stat
+2024-05-24 20:47:23,116 -  * Debugger is active!
+2024-05-24 20:47:23,116 -  * Debugger PIN: 847-979-700
+2024-05-24 20:47:32,338 - 127.0.0.1 - - [24/May/2024 20:47:32] "GET / HTTP/1.1" 200 -
+2024-05-24 20:47:32,372 - 127.0.0.1 - - [24/May/2024 20:47:32] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-05-24 20:47:33,342 - 127.0.0.1 - - [24/May/2024 20:47:33] "GET / HTTP/1.1" 200 -
+2024-05-24 20:47:33,357 - 127.0.0.1 - - [24/May/2024 20:47:33] "[33mGET /script.js HTTP/1.1[0m" 404 -
