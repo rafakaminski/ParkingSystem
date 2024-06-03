@@ -867,3 +867,832 @@
 2024-05-24 20:51:08,025 - Estacionamento 2 - Vaga 1 preenchida.
 2024-05-24 20:51:09,269 - Processo 2 parado
 2024-05-24 20:51:09,269 - 127.0.0.1 - - [24/May/2024 20:51:09] "POST /stop/1 HTTP/1.1" 200 -
+2024-06-03 19:17:03,315 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 19:17:03,315 - [33mPress CTRL+C to quit[0m
+2024-06-03 19:17:03,319 -  * Restarting with stat
+2024-06-03 19:17:04,489 -  * Debugger is active!
+2024-06-03 19:17:04,505 -  * Debugger PIN: 847-979-700
+2024-06-03 19:17:14,925 - 127.0.0.1 - - [03/Jun/2024 19:17:14] "GET / HTTP/1.1" 200 -
+2024-06-03 19:17:15,661 - 127.0.0.1 - - [03/Jun/2024 19:17:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-03 19:17:17,350 - Processo 1 iniciado
+2024-06-03 19:17:17,351 - 127.0.0.1 - - [03/Jun/2024 19:17:17] "POST /start/0 HTTP/1.1" 200 -
+2024-06-03 19:17:17,624 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:17:17,671 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-03 19:17:17,671 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-03 19:17:17,686 - 127.0.0.1 - - [03/Jun/2024 19:17:17] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-03 19:17:19,227 - Processo 1 parado
+2024-06-03 19:17:19,228 - 127.0.0.1 - - [03/Jun/2024 19:17:19] "POST /stop/0 HTTP/1.1" 200 -
+2024-06-03 19:17:20,285 - Processo 2 iniciado
+2024-06-03 19:17:20,286 - 127.0.0.1 - - [03/Jun/2024 19:17:20] "POST /start/1 HTTP/1.1" 200 -
+2024-06-03 19:17:20,309 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:17:20,354 - 127.0.0.1 - - [03/Jun/2024 19:17:20] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-03 19:17:21,554 - Processo 2 parado
+2024-06-03 19:17:21,555 - 127.0.0.1 - - [03/Jun/2024 19:17:21] "POST /stop/1 HTTP/1.1" 200 -
+2024-06-03 19:17:27,029 - Processo 1 iniciado
+2024-06-03 19:17:27,029 - 127.0.0.1 - - [03/Jun/2024 19:17:27] "POST /start/0 HTTP/1.1" 200 -
+2024-06-03 19:17:27,059 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:17:27,082 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-03 19:17:27,082 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-03 19:17:27,097 - 127.0.0.1 - - [03/Jun/2024 19:17:27] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-03 19:17:29,188 - Processo 2 iniciado
+2024-06-03 19:17:29,191 - 127.0.0.1 - - [03/Jun/2024 19:17:29] "POST /start/1 HTTP/1.1" 200 -
+2024-06-03 19:17:29,211 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:17:29,255 - 127.0.0.1 - - [03/Jun/2024 19:17:29] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-03 19:17:32,693 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:17:36,586 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:17:39,533 - Fim do vídeo: static/video.mp4
+2024-06-03 19:17:39,560 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:17:39,589 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:17:44,363 - Processo 1 parado
+2024-06-03 19:17:44,364 - 127.0.0.1 - - [03/Jun/2024 19:17:44] "POST /stop/0 HTTP/1.1" 200 -
+2024-06-03 19:17:45,395 - Processo 2 parado
+2024-06-03 19:17:45,396 - 127.0.0.1 - - [03/Jun/2024 19:17:45] "POST /stop/1 HTTP/1.1" 200 -
+2024-06-03 19:36:30,148 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 19:36:30,149 - [33mPress CTRL+C to quit[0m
+2024-06-03 19:36:30,152 -  * Restarting with stat
+2024-06-03 19:36:31,328 -  * Debugger is active!
+2024-06-03 19:36:31,346 -  * Debugger PIN: 847-979-700
+2024-06-03 19:36:31,479 - 127.0.0.1 - - [03/Jun/2024 19:36:31] "GET / HTTP/1.1" 200 -
+2024-06-03 19:36:35,935 - Processo 1 iniciado
+2024-06-03 19:36:35,939 - 127.0.0.1 - - [03/Jun/2024 19:36:35] "POST /start/0 HTTP/1.1" 200 -
+2024-06-03 19:36:36,002 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:36:36,036 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-03 19:36:36,036 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-03 19:36:36,054 - 127.0.0.1 - - [03/Jun/2024 19:36:36] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-03 19:36:38,620 - Processo 2 iniciado
+2024-06-03 19:36:38,624 - 127.0.0.1 - - [03/Jun/2024 19:36:38] "POST /start/1 HTTP/1.1" 200 -
+2024-06-03 19:36:38,686 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:36:38,766 - 127.0.0.1 - - [03/Jun/2024 19:36:38] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-03 19:36:42,071 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:36:46,240 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:36:48,808 - Fim do vídeo: static/video.mp4
+2024-06-03 19:36:48,838 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:36:48,864 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:36:55,137 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:36:57,624 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:36:57,643 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:36:57,669 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:37:02,004 - Fim do vídeo: static/video.mp4
+2024-06-03 19:37:02,036 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:37:02,064 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:37:04,873 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:37:07,981 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:37:14,459 - Fim do vídeo: static/video.mp4
+2024-06-03 19:37:14,486 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:37:14,503 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:37:15,628 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:37:15,634 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:37:15,667 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:37:20,162 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:37:22,422 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:37:26,609 - Fim do vídeo: static/video.mp4
+2024-06-03 19:37:26,636 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:37:26,662 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:37:32,291 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:37:32,976 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:37:32,980 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:37:33,015 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:37:38,713 - Fim do vídeo: static/video.mp4
+2024-06-03 19:37:38,755 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:37:38,780 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:37:39,703 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:37:44,493 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:37:50,280 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:37:50,294 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:37:50,320 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:37:50,880 - Fim do vídeo: static/video.mp4
+2024-06-03 19:37:50,908 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:37:50,934 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:37:56,588 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:37:57,063 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:38:02,892 - Fim do vídeo: static/video.mp4
+2024-06-03 19:38:02,925 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:38:02,954 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:38:07,444 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:38:07,458 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:38:07,483 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:38:08,519 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:38:14,236 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:38:14,908 - Fim do vídeo: static/video.mp4
+2024-06-03 19:38:14,938 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:38:14,966 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:38:20,622 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:38:24,756 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:38:24,761 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:38:24,796 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:38:27,023 - Fim do vídeo: static/video.mp4
+2024-06-03 19:38:27,051 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:38:27,078 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:38:31,519 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:38:32,687 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:38:39,054 - Fim do vídeo: static/video.mp4
+2024-06-03 19:38:39,071 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:38:39,107 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:38:41,958 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:38:41,974 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:38:41,998 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:38:44,751 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:38:48,753 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:38:51,192 - Fim do vídeo: static/video.mp4
+2024-06-03 19:38:51,207 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:38:51,240 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:38:56,779 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:38:59,180 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:38:59,193 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:38:59,221 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:39:03,244 - Fim do vídeo: static/video.mp4
+2024-06-03 19:39:03,272 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:39:03,295 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:39:05,982 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:39:08,893 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:39:15,164 - Fim do vídeo: static/video.mp4
+2024-06-03 19:39:15,189 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:39:15,214 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:39:16,310 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:39:16,324 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:39:16,351 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:39:20,813 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:39:23,065 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:39:27,235 - Fim do vídeo: static/video.mp4
+2024-06-03 19:39:27,273 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:39:27,300 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:39:33,057 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:39:33,710 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:39:33,726 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:39:33,762 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:39:39,598 - Fim do vídeo: static/video.mp4
+2024-06-03 19:39:39,623 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:39:39,647 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:39:40,609 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:39:45,394 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:39:51,306 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:39:51,322 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:39:51,354 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:39:51,902 - Fim do vídeo: static/video.mp4
+2024-06-03 19:39:51,934 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:39:51,961 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:39:57,593 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:39:58,165 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:40:04,263 - Fim do vídeo: static/video.mp4
+2024-06-03 19:40:04,279 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:40:04,311 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:40:08,686 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:40:08,700 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:40:08,707 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:40:09,747 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:40:15,627 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:40:16,285 - Fim do vídeo: static/video.mp4
+2024-06-03 19:40:16,313 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:40:16,337 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:40:22,227 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:40:26,459 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:40:26,475 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:40:26,507 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:40:28,698 - Fim do vídeo: static/video.mp4
+2024-06-03 19:40:28,716 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:40:28,749 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:40:33,237 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:40:34,346 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:40:40,577 - Fim do vídeo: static/video.mp4
+2024-06-03 19:40:40,608 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:40:40,624 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:40:43,341 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:40:43,357 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:40:43,388 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:40:45,941 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:40:49,995 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:40:52,183 - Fim do vídeo: static/video.mp4
+2024-06-03 19:40:52,214 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:40:52,246 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:40:57,555 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:41:00,049 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:41:00,049 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:41:00,081 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:41:03,720 - Fim do vídeo: static/video.mp4
+2024-06-03 19:41:03,752 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:41:03,783 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:41:06,589 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:41:09,310 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:41:15,542 - Fim do vídeo: static/video.mp4
+2024-06-03 19:41:15,574 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:41:15,596 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:41:16,846 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:41:16,862 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:41:16,878 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:41:20,979 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:41:23,490 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:41:27,425 - Fim do vídeo: static/video.mp4
+2024-06-03 19:41:27,447 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:41:27,470 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:41:33,104 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:41:33,970 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:41:33,970 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:41:33,989 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:41:39,417 - Fim do vídeo: static/video.mp4
+2024-06-03 19:41:39,448 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:41:39,479 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:41:40,666 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:41:45,978 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:41:52,343 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:41:52,358 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:41:52,374 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:41:52,655 - Fim do vídeo: static/video.mp4
+2024-06-03 19:41:52,687 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:41:52,702 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:41:58,205 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:41:59,043 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:42:05,158 - Fim do vídeo: static/video.mp4
+2024-06-03 19:42:05,191 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:42:05,226 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:42:10,402 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:42:10,419 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:42:10,455 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:42:11,455 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:42:18,999 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:42:19,456 - Fim do vídeo: static/video.mp4
+2024-06-03 19:42:19,476 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:42:19,498 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:42:25,172 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:42:30,231 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:42:30,246 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:42:30,275 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:42:32,108 - Fim do vídeo: static/video.mp4
+2024-06-03 19:42:32,129 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:42:32,152 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:42:36,962 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:42:37,812 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:42:44,184 - Fim do vídeo: static/video.mp4
+2024-06-03 19:42:44,200 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:42:44,231 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:42:47,435 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:42:47,435 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:42:47,466 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:42:49,705 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:42:54,260 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:42:56,358 - Fim do vídeo: static/video.mp4
+2024-06-03 19:42:56,379 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:42:56,401 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:43:01,945 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:43:04,606 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:43:04,618 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:43:04,642 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:43:08,289 - Fim do vídeo: static/video.mp4
+2024-06-03 19:43:08,311 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:43:08,333 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:43:11,198 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:43:13,792 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:43:19,993 - Fim do vídeo: static/video.mp4
+2024-06-03 19:43:20,008 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:43:20,024 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:43:21,437 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:43:21,457 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:43:21,481 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:43:25,964 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:43:29,170 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:43:34,052 - Fim do vídeo: static/video.mp4
+2024-06-03 19:43:34,080 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:43:34,112 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:43:40,036 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:43:41,107 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:43:41,118 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:43:41,140 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:43:46,559 - Fim do vídeo: static/video.mp4
+2024-06-03 19:43:46,575 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:43:46,606 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:43:47,946 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:43:52,430 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:43:58,725 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:43:58,740 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:43:58,756 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:43:58,896 - Fim do vídeo: static/video.mp4
+2024-06-03 19:43:58,912 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:43:58,943 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:44:04,382 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:44:05,319 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:44:10,512 - Fim do vídeo: static/video.mp4
+2024-06-03 19:44:10,528 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:44:10,559 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:44:15,523 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:44:15,532 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:44:15,556 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:44:16,163 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:44:22,358 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:44:22,637 - Fim do vídeo: static/video.mp4
+2024-06-03 19:44:22,658 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:44:22,680 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:44:28,082 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:44:32,550 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:44:32,569 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:44:32,591 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:44:34,490 - Fim do vídeo: static/video.mp4
+2024-06-03 19:44:34,515 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:44:34,542 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:44:39,382 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:44:40,097 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:44:46,266 - Fim do vídeo: static/video.mp4
+2024-06-03 19:44:46,292 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:44:46,317 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:44:49,414 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:44:49,414 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:44:49,445 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:44:51,533 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:44:56,056 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:44:57,761 - Fim do vídeo: static/video.mp4
+2024-06-03 19:44:57,784 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:44:57,808 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:45:03,272 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:45:06,214 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:45:06,214 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:45:06,245 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:45:09,520 - Fim do vídeo: static/video.mp4
+2024-06-03 19:45:09,553 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:45:09,584 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:45:12,740 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:45:15,128 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:45:21,778 - Fim do vídeo: static/video.mp4
+2024-06-03 19:45:21,799 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:45:21,826 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:45:23,459 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:45:23,467 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:45:23,483 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:45:27,482 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:45:30,109 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:45:33,795 - Fim do vídeo: static/video.mp4
+2024-06-03 19:45:33,826 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:45:33,842 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:45:39,345 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:45:40,589 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:45:40,598 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:45:40,620 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:45:45,826 - Fim do vídeo: static/video.mp4
+2024-06-03 19:45:45,833 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:45:45,864 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:45:47,235 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:45:51,304 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:45:57,607 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:45:57,616 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:45:57,641 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:45:57,689 - Fim do vídeo: static/video.mp4
+2024-06-03 19:45:57,713 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:45:57,738 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:46:03,297 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:46:04,259 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:46:09,769 - Fim do vídeo: static/video.mp4
+2024-06-03 19:46:09,790 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:46:09,813 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:46:14,833 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:46:14,849 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:46:14,875 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:46:15,387 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:46:21,651 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:46:21,960 - Fim do vídeo: static/video.mp4
+2024-06-03 19:46:21,983 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:46:22,010 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:46:27,548 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:46:31,839 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:46:31,852 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:46:31,876 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:46:33,687 - Fim do vídeo: static/video.mp4
+2024-06-03 19:46:33,703 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:46:33,718 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:46:38,314 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:46:39,049 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:46:45,319 - Fim do vídeo: static/video.mp4
+2024-06-03 19:46:45,335 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:46:45,351 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:46:48,459 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:46:48,475 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:46:48,490 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:46:50,836 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:46:55,038 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:46:57,189 - Fim do vídeo: static/video.mp4
+2024-06-03 19:46:57,205 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:46:57,220 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:47:02,662 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:47:05,422 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:47:05,422 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:47:05,453 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:47:08,873 - Fim do vídeo: static/video.mp4
+2024-06-03 19:47:08,910 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:47:08,934 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:47:12,021 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:47:14,594 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:47:21,067 - Fim do vídeo: static/video.mp4
+2024-06-03 19:47:21,097 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:47:21,118 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:47:22,860 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:47:22,867 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:47:22,901 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:47:27,416 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:47:30,209 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:47:33,928 - Fim do vídeo: static/video.mp4
+2024-06-03 19:47:33,955 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:47:33,984 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:47:41,259 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:47:42,523 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:47:42,533 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:47:42,558 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:47:48,268 - Fim do vídeo: static/video.mp4
+2024-06-03 19:47:48,285 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:47:48,321 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:47:49,788 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:47:54,949 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:48:01,469 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:48:01,469 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:48:01,501 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:48:01,533 - Fim do vídeo: static/video.mp4
+2024-06-03 19:48:01,548 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:48:01,579 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:48:07,451 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:48:08,547 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:48:13,949 - Fim do vídeo: static/video.mp4
+2024-06-03 19:48:13,980 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:48:13,996 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:48:19,106 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:48:19,106 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:48:19,138 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:48:19,700 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:48:26,043 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:48:26,221 - Fim do vídeo: static/video.mp4
+2024-06-03 19:48:26,236 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:48:26,267 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:48:31,813 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:48:36,613 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:48:36,629 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:48:36,644 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:48:38,331 - Fim do vídeo: static/video.mp4
+2024-06-03 19:48:38,346 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:48:38,383 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:48:43,171 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:48:43,817 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:48:50,208 - Fim do vídeo: static/video.mp4
+2024-06-03 19:48:50,239 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:48:50,254 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:48:53,686 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:48:53,695 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:48:53,713 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:48:55,840 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:49:00,179 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:49:01,995 - Fim do vídeo: static/video.mp4
+2024-06-03 19:49:02,017 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:49:02,030 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:49:07,627 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:49:10,581 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:49:10,592 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:49:10,620 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:49:13,995 - Fim do vídeo: static/video.mp4
+2024-06-03 19:49:14,018 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:49:14,047 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:49:17,301 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:49:19,833 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:49:26,400 - Fim do vídeo: static/video.mp4
+2024-06-03 19:49:26,429 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:49:26,451 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:49:27,957 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:49:27,957 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:49:27,988 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:49:31,926 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:49:34,736 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:49:38,296 - Fim do vídeo: static/video.mp4
+2024-06-03 19:49:38,312 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:49:38,327 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:49:43,825 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:49:44,891 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:49:44,907 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:49:44,938 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:49:50,022 - Fim do vídeo: static/video.mp4
+2024-06-03 19:49:50,053 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:49:50,069 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:49:51,398 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:49:55,509 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:50:01,864 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:50:01,879 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:50:01,895 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:50:01,988 - Fim do vídeo: static/video.mp4
+2024-06-03 19:50:02,004 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:50:02,040 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:50:07,592 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:50:08,636 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:50:13,879 - Fim do vídeo: static/video.mp4
+2024-06-03 19:50:13,900 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:50:13,921 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:50:18,961 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:50:18,977 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:50:18,992 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:50:19,441 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:50:25,697 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:50:25,842 - Fim do vídeo: static/video.mp4
+2024-06-03 19:50:25,868 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:50:25,898 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:50:31,468 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:50:36,217 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:50:36,233 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:50:36,256 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:50:37,834 - Fim do vídeo: static/video.mp4
+2024-06-03 19:50:37,850 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:50:37,885 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:50:42,926 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:50:43,398 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:50:49,485 - Fim do vídeo: static/video.mp4
+2024-06-03 19:50:49,501 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:50:49,535 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:50:52,887 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:50:52,902 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:50:52,931 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:50:54,942 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:50:59,480 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:51:01,169 - Fim do vídeo: static/video.mp4
+2024-06-03 19:51:01,190 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:51:01,218 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:51:06,750 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:51:09,835 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:51:09,845 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:51:09,866 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:51:13,051 - Fim do vídeo: static/video.mp4
+2024-06-03 19:51:13,071 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:51:13,084 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:51:16,638 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:51:18,848 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:51:25,667 - Fim do vídeo: static/video.mp4
+2024-06-03 19:51:25,698 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:51:25,714 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:51:27,608 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:51:27,608 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:51:27,639 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:51:31,174 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:51:34,196 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:51:37,523 - Fim do vídeo: static/video.mp4
+2024-06-03 19:51:37,544 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:51:37,568 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:51:43,014 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:51:44,435 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:51:44,435 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:51:44,466 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:51:49,439 - Fim do vídeo: static/video.mp4
+2024-06-03 19:51:49,461 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:51:49,484 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:51:51,236 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 19:51:55,112 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 19:52:01,425 - Fim do vídeo: static/video.mp4
+2024-06-03 19:52:01,445 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 19:52:01,461 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 19:52:01,645 - Fim do vídeo: static/video2.mp4
+2024-06-03 19:52:01,645 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 19:52:01,677 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 19:52:06,103 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 19:52:06,103 - [33mPress CTRL+C to quit[0m
+2024-06-03 19:52:06,103 -  * Restarting with stat
+2024-06-03 19:52:07,213 -  * Debugger is active!
+2024-06-03 19:52:07,213 -  * Debugger PIN: 847-979-700
+2024-06-03 19:52:18,092 - 127.0.0.1 - - [03/Jun/2024 19:52:18] "[33mGET /login HTTP/1.1[0m" 404 -
+2024-06-03 19:53:30,007 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 19:53:30,008 - [33mPress CTRL+C to quit[0m
+2024-06-03 19:53:30,010 -  * Restarting with stat
+2024-06-03 19:53:31,240 -  * Debugger is active!
+2024-06-03 19:53:31,246 -  * Debugger PIN: 847-979-700
+2024-06-03 19:53:36,339 - 127.0.0.1 - - [03/Jun/2024 19:53:36] "GET / HTTP/1.1" 200 -
+2024-06-03 19:53:36,364 - 127.0.0.1 - - [03/Jun/2024 19:53:36] "[33mGET /.templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:36,370 - 127.0.0.1 - - [03/Jun/2024 19:53:36] "[33mGET /.templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:38,258 - 127.0.0.1 - - [03/Jun/2024 19:53:38] "GET / HTTP/1.1" 200 -
+2024-06-03 19:53:38,276 - 127.0.0.1 - - [03/Jun/2024 19:53:38] "[33mGET /.templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:38,281 - 127.0.0.1 - - [03/Jun/2024 19:53:38] "[33mGET /.templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:38,930 - 127.0.0.1 - - [03/Jun/2024 19:53:38] "GET / HTTP/1.1" 200 -
+2024-06-03 19:53:38,942 - 127.0.0.1 - - [03/Jun/2024 19:53:38] "[33mGET /.templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:38,947 - 127.0.0.1 - - [03/Jun/2024 19:53:38] "[33mGET /.templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:39,466 - 127.0.0.1 - - [03/Jun/2024 19:53:39] "GET / HTTP/1.1" 200 -
+2024-06-03 19:53:39,478 - 127.0.0.1 - - [03/Jun/2024 19:53:39] "[33mGET /.templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:39,484 - 127.0.0.1 - - [03/Jun/2024 19:53:39] "[33mGET /.templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:53:40,388 - 127.0.0.1 - - [03/Jun/2024 19:53:40] "[33mGET /outra_pagina.html HTTP/1.1[0m" 404 -
+2024-06-03 19:53:54,980 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 19:53:54,980 - [33mPress CTRL+C to quit[0m
+2024-06-03 19:53:54,983 -  * Restarting with stat
+2024-06-03 19:53:56,079 -  * Debugger is active!
+2024-06-03 19:53:56,095 -  * Debugger PIN: 847-979-700
+2024-06-03 19:54:01,971 - 127.0.0.1 - - [03/Jun/2024 19:54:01] "GET / HTTP/1.1" 200 -
+2024-06-03 19:54:01,999 - 127.0.0.1 - - [03/Jun/2024 19:54:01] "[33mGET /.templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:54:02,003 - 127.0.0.1 - - [03/Jun/2024 19:54:02] "[33mGET /.templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:54:03,524 - 127.0.0.1 - - [03/Jun/2024 19:54:03] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2024-06-03 19:54:37,774 - 127.0.0.1 - - [03/Jun/2024 19:54:37] "[33mGET /templates/login.html HTTP/1.1[0m" 404 -
+2024-06-03 19:55:24,969 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 19:55:24,969 - [33mPress CTRL+C to quit[0m
+2024-06-03 19:55:24,971 -  * Restarting with stat
+2024-06-03 19:55:26,238 -  * Debugger is active!
+2024-06-03 19:55:26,239 -  * Debugger PIN: 847-979-700
+2024-06-03 19:55:39,759 - 127.0.0.1 - - [03/Jun/2024 19:55:39] "[33mGET /templates/login.html HTTP/1.1[0m" 404 -
+2024-06-03 19:55:43,080 - 127.0.0.1 - - [03/Jun/2024 19:55:43] "GET / HTTP/1.1" 200 -
+2024-06-03 19:55:43,092 - 127.0.0.1 - - [03/Jun/2024 19:55:43] "[33mGET /.templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:55:43,095 - 127.0.0.1 - - [03/Jun/2024 19:55:43] "[33mGET /.templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:51,435 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 19:57:51,435 - [33mPress CTRL+C to quit[0m
+2024-06-03 19:57:51,438 -  * Restarting with stat
+2024-06-03 19:57:52,652 -  * Debugger is active!
+2024-06-03 19:57:52,660 -  * Debugger PIN: 847-979-700
+2024-06-03 19:57:57,305 - 127.0.0.1 - - [03/Jun/2024 19:57:57] "GET / HTTP/1.1" 200 -
+2024-06-03 19:57:57,332 - 127.0.0.1 - - [03/Jun/2024 19:57:57] "[33mGET /templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:57,336 - 127.0.0.1 - - [03/Jun/2024 19:57:57] "[33mGET /templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:57,993 - 127.0.0.1 - - [03/Jun/2024 19:57:57] "GET / HTTP/1.1" 200 -
+2024-06-03 19:57:58,007 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,012 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,290 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "GET / HTTP/1.1" 200 -
+2024-06-03 19:57:58,303 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,308 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,514 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "GET / HTTP/1.1" 200 -
+2024-06-03 19:57:58,526 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,530 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,713 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "GET / HTTP/1.1" 200 -
+2024-06-03 19:57:58,723 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,730 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,906 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "GET / HTTP/1.1" 200 -
+2024-06-03 19:57:58,919 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:57:58,924 - 127.0.0.1 - - [03/Jun/2024 19:57:58] "[33mGET /templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 19:58:24,146 - 127.0.0.1 - - [03/Jun/2024 19:58:24] "GET / HTTP/1.1" 200 -
+2024-06-03 19:58:24,171 - 127.0.0.1 - - [03/Jun/2024 19:58:24] "[33mGET /templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 19:58:24,176 - 127.0.0.1 - - [03/Jun/2024 19:58:24] "[33mGET /templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 20:01:34,254 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-03 20:01:34,256 - [33mPress CTRL+C to quit[0m
+2024-06-03 20:01:34,261 -  * Restarting with stat
+2024-06-03 20:01:35,437 -  * Debugger is active!
+2024-06-03 20:01:35,437 -  * Debugger PIN: 847-979-700
+2024-06-03 20:02:12,266 - 127.0.0.1 - - [03/Jun/2024 20:02:12] "GET / HTTP/1.1" 200 -
+2024-06-03 20:02:39,889 - 127.0.0.1 - - [03/Jun/2024 20:02:39] "GET / HTTP/1.1" 200 -
+2024-06-03 20:02:44,727 - Processo 1 iniciado
+2024-06-03 20:02:44,730 - 127.0.0.1 - - [03/Jun/2024 20:02:44] "POST /start/0 HTTP/1.1" 200 -
+2024-06-03 20:02:44,820 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:02:44,847 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-03 20:02:44,847 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-03 20:02:44,862 - 127.0.0.1 - - [03/Jun/2024 20:02:44] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-03 20:02:46,551 - Processo 2 iniciado
+2024-06-03 20:02:46,552 - 127.0.0.1 - - [03/Jun/2024 20:02:46] "POST /start/1 HTTP/1.1" 200 -
+2024-06-03 20:02:46,572 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:02:46,615 - 127.0.0.1 - - [03/Jun/2024 20:02:46] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-03 20:02:50,437 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:02:53,571 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:02:57,090 - Fim do vídeo: static/video.mp4
+2024-06-03 20:02:57,115 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:02:57,142 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:02:58,871 - Processo 1 parado
+2024-06-03 20:02:58,872 - 127.0.0.1 - - [03/Jun/2024 20:02:58] "POST /stop/0 HTTP/1.1" 200 -
+2024-06-03 20:03:00,590 - Processo 2 parado
+2024-06-03 20:03:00,591 - 127.0.0.1 - - [03/Jun/2024 20:03:00] "POST /stop/1 HTTP/1.1" 200 -
+2024-06-03 20:14:52,984 - 127.0.0.1 - - [03/Jun/2024 20:14:52] "GET / HTTP/1.1" 200 -
+2024-06-03 20:14:56,659 - 127.0.0.1 - - [03/Jun/2024 20:14:56] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2024-06-03 20:15:00,185 - Processo 2 iniciado
+2024-06-03 20:15:00,186 - 127.0.0.1 - - [03/Jun/2024 20:15:00] "POST /start/1 HTTP/1.1" 200 -
+2024-06-03 20:15:00,205 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:15:00,250 - 127.0.0.1 - - [03/Jun/2024 20:15:00] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-03 20:15:07,130 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:15:17,051 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:15:17,065 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:15:17,091 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:15:23,372 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:15:32,971 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:15:32,987 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:15:33,018 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:15:38,914 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:15:48,265 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:15:48,281 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:15:48,312 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:15:54,308 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:16:03,578 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:16:03,594 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:16:03,638 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:16:09,698 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:16:19,275 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:16:19,288 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:16:19,309 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:16:25,184 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:16:34,053 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:16:34,069 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:16:34,085 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:16:39,981 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:16:47,321 - 127.0.0.1 - - [03/Jun/2024 20:16:47] "GET / HTTP/1.1" 200 -
+2024-06-03 20:17:06,871 - 127.0.0.1 - - [03/Jun/2024 20:17:06] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2024-06-03 20:17:08,420 - 127.0.0.1 - - [03/Jun/2024 20:17:08] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2024-06-03 20:40:59,056 - 127.0.0.1 - - [03/Jun/2024 20:40:59] "GET / HTTP/1.1" 200 -
+2024-06-03 20:41:00,609 - Processo 1 iniciado
+2024-06-03 20:41:00,610 - 127.0.0.1 - - [03/Jun/2024 20:41:00] "POST /start/0 HTTP/1.1" 200 -
+2024-06-03 20:41:00,638 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:41:00,662 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-03 20:41:00,662 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-03 20:41:00,676 - 127.0.0.1 - - [03/Jun/2024 20:41:00] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-03 20:41:01,521 - Processo 2 iniciado
+2024-06-03 20:41:01,522 - 127.0.0.1 - - [03/Jun/2024 20:41:01] "POST /start/1 HTTP/1.1" 200 -
+2024-06-03 20:41:01,544 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:41:01,591 - 127.0.0.1 - - [03/Jun/2024 20:41:01] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-03 20:41:07,006 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:41:09,078 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:41:13,694 - Fim do vídeo: static/video.mp4
+2024-06-03 20:41:13,709 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:41:13,745 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:41:19,556 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:41:19,986 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:41:20,000 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:41:20,023 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:41:26,874 - Fim do vídeo: static/video.mp4
+2024-06-03 20:41:26,901 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:41:26,932 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:41:27,777 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:41:33,228 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:41:39,145 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:41:39,160 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:41:39,185 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:41:39,845 - Fim do vídeo: static/video.mp4
+2024-06-03 20:41:39,877 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:41:39,899 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:41:45,470 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:41:45,882 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:41:51,811 - Fim do vídeo: static/video.mp4
+2024-06-03 20:41:51,828 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:41:51,861 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:41:56,383 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:41:56,399 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:41:56,415 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:41:57,475 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:42:03,237 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:42:04,010 - Fim do vídeo: static/video.mp4
+2024-06-03 20:42:04,027 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:42:04,060 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:42:09,708 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:42:13,856 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:42:13,878 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:42:13,895 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:42:16,119 - Fim do vídeo: static/video.mp4
+2024-06-03 20:42:16,140 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:42:16,156 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:42:20,512 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:42:21,797 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:42:28,369 - Fim do vídeo: static/video.mp4
+2024-06-03 20:42:28,391 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:42:28,408 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:42:31,041 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:42:31,057 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:42:31,083 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:42:34,087 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:42:38,099 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:42:40,748 - Fim do vídeo: static/video.mp4
+2024-06-03 20:42:40,783 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:42:40,799 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:42:46,598 - 127.0.0.1 - - [03/Jun/2024 20:42:46] "GET / HTTP/1.1" 200 -
+2024-06-03 20:43:18,122 - 127.0.0.1 - - [03/Jun/2024 20:43:18] "GET / HTTP/1.1" 200 -
+2024-06-03 20:43:18,148 - 127.0.0.1 - - [03/Jun/2024 20:43:18] "[33mGET /.templates/css/theme.css HTTP/1.1[0m" 404 -
+2024-06-03 20:43:18,153 - 127.0.0.1 - - [03/Jun/2024 20:43:18] "[33mGET /.templates/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-06-03 20:43:18,201 - 127.0.0.1 - - [03/Jun/2024 20:43:18] "[33mGET /.templates/img/facebook-logo-2019.ico HTTP/1.1[0m" 404 -
+2024-06-03 20:43:20,163 - Processo 2 iniciado
+2024-06-03 20:43:20,168 - 127.0.0.1 - - [03/Jun/2024 20:43:20] "POST /start/1 HTTP/1.1" 200 -
+2024-06-03 20:43:20,184 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:43:20,223 - 127.0.0.1 - - [03/Jun/2024 20:43:20] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-03 20:43:21,526 - Processo 1 iniciado
+2024-06-03 20:43:21,526 - 127.0.0.1 - - [03/Jun/2024 20:43:21] "POST /start/0 HTTP/1.1" 200 -
+2024-06-03 20:43:21,559 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:43:21,577 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-03 20:43:21,577 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-03 20:43:21,592 - 127.0.0.1 - - [03/Jun/2024 20:43:21] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-03 20:43:27,060 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:43:27,420 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:43:33,919 - Fim do vídeo: static/video.mp4
+2024-06-03 20:43:33,935 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:43:33,966 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:43:37,505 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:43:37,520 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:43:37,543 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:43:39,546 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:43:44,386 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:43:46,071 - Fim do vídeo: static/video.mp4
+2024-06-03 20:43:46,100 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:43:46,131 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:43:51,733 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:43:54,938 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:43:54,940 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:43:54,972 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:43:58,396 - Fim do vídeo: static/video.mp4
+2024-06-03 20:43:58,407 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:43:58,444 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:44:02,292 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:44:04,764 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:44:11,264 - Fim do vídeo: static/video.mp4
+2024-06-03 20:44:11,296 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:44:11,311 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:44:13,136 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:44:13,152 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:44:13,183 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:44:16,908 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:44:19,866 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-03 20:44:23,319 - Fim do vídeo: static/video.mp4
+2024-06-03 20:44:23,335 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:44:23,373 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:44:29,088 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-03 20:44:30,533 - Fim do vídeo: static/video2.mp4
+2024-06-03 20:44:30,549 - Iniciando processamento do vídeo: static/video2.mp4
+2024-06-03 20:44:30,571 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-03 20:44:35,551 - Fim do vídeo: static/video.mp4
+2024-06-03 20:44:35,579 - Iniciando processamento do vídeo: static/video.mp4
+2024-06-03 20:44:35,606 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-03 20:44:37,314 - Estacionamento 2 - Vaga 1 preenchida.
