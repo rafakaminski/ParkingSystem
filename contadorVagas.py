@@ -1,4 +1,4 @@
-from flask import Flask, render_template, Response, request
+from flask import Flask, render_template, Response, request, redirect, url_for
 import cv2
 import numpy as np
 import logging
@@ -95,6 +95,17 @@ def process_video(index):
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        # Aqui você pode adicionar a lógica de autenticação
+        return redirect(url_for('menu'))
+    return render_template('login.html')
+
+@app.route('/menu')
+def menu():
+    return render_template('menu.html')
 
 @app.route('/start/<int:index>', methods=['POST'])
 def start(index):
