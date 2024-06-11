@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitoramento de Vagas</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .video-feed {
+            width: 640px; /* Defina a largura desejada */
+            height: 360px; /* Defina a altura desejada */
+            object-fit: cover; /* Mantém a proporção do vídeo e cobre o elemento */
+        }
+    </style>
 </head>
-
-
-
 <body>
     <div class="container mt-5">
         <h1 class="text-center">Monitoramento de Vagas</h1>
@@ -20,6 +24,9 @@
             <li class="nav-item">
                 <a class="nav-link" id="estacionamento2-tab" data-toggle="tab" href="#estacionamento2" role="tab" aria-controls="estacionamento2" aria-selected="false">Estacionamento 2</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" id="webcam-tab" data-toggle="tab" href="#webcam" role="tab" aria-controls="webcam" aria-selected="false">Webcam</a>
+            </li>
         </ul>
         <div class="tab-content" id="parkingTabContent">
             <div class="tab-pane fade show active" id="estacionamento1" role="tabpanel" aria-labelledby="estacionamento1-tab">
@@ -29,7 +36,7 @@
                         <button type="button" class="btn btn-danger" onclick="stopProcessing(0)">Parar</button>
                     </div>
                     <div class="mt-3">
-                        <img id="video1" src="" alt="Feed de vídeo 1" class="img-fluid">
+                        <img id="video1" src="" alt="Feed de vídeo 1" class="img-fluid video-feed">
                     </div>
                 </div>
             </div>
@@ -40,7 +47,18 @@
                         <button type="button" class="btn btn-danger" onclick="stopProcessing(1)">Parar</button>
                     </div>
                     <div class="mt-3">
-                        <img id="video2" src="" alt="Feed de vídeo 2" class="img-fluid">
+                        <img id="video2" src="" alt="Feed de vídeo 2" class="img-fluid video-feed">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="webcam" role="tabpanel" aria-labelledby="webcam-tab">
+                <div class="text-center mt-3">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success" onclick="startWebcam()">Iniciar Webcam</button>
+                        <button type="button" class="btn btn-danger" onclick="stopWebcam()">Parar Webcam</button>
+                    </div>
+                    <div class="mt-3">
+                        <img id="webcamVideo" src="" alt="Feed da Webcam" class="img-fluid video-feed">
                     </div>
                 </div>
             </div>
@@ -66,6 +84,20 @@
                     document.getElementById(`video${index + 1}`).src = '';
                 })
                 .catch(error => console.error(`Erro ao parar o processo ${index + 1}:`, error));
+        }
+
+        function startWebcam() {
+            document.getElementById('webcamVideo').src = '/webcam_feed';
+        }
+
+        function stopWebcam() {
+            fetch('/stop_webcam', { method: 'POST' })
+                .then(response => response.text())
+                .then(result => {
+                    console.log(result);
+                    document.getElementById('webcamVideo').src = '';
+                })
+                .catch(error => console.error('Erro ao parar a webcam:', error));
         }
     </script>
 

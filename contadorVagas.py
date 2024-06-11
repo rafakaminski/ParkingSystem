@@ -37,6 +37,7 @@ estacionamentos = [
 
 # Flags para controle do processamento dos vídeos
 process_video_flags = [False] * len(estacionamentos)
+webcam_flag = False
 
 def process_video(index):
     global process_video_flags
@@ -92,6 +93,34 @@ def process_video(index):
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
         video.release()
 
+def process_webcam():
+    global webcam_flag
+    cap = cv2.VideoCapture(0)
+    if not cap.isOpened():
+        logging.error("Erro ao abrir a webcam")
+        return
+
+    logging.info("Iniciando processamento da webcam")
+
+    while webcam_flag:
+        ret, img = cap.read()
+        if not ret:
+            logging.info("Erro ao capturar imagem da webcam")
+            break
+
+        imgCinza = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        imgTh = cv2.adaptiveThreshold(imgCinza, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 16)
+        imgBlur = cv2.medianBlur(imgTh, 5)
+        kernel = np.ones((3, 3), np.int8)
+        imgDil = cv2.dilate(imgBlur, kernel)
+
+        ret, jpeg = cv2.imencode('.jpg', img)
+        frame = jpeg.tobytes()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+
+    cap.release()
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -125,6 +154,20 @@ def stop(index):
 @app.route('/video_feed/<int:index>')
 def video_feed(index):
     return Response(process_video(index), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@app.route('/webcam_feed')
+def webcam_feed():
+    global webcam_flag
+    webcam_flag = True
+    threading.Thread(target=process_webcam).start()
+    return Response(process_webcam(), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@app.route('/stop_webcam', methods=['POST'])
+def stop_webcam():
+    global webcam_flag
+    webcam_flag = False
+    logging.info('Webcam parada')
+    return 'Webcam parada'
 
 if __name__ == '__main__':
     app.run(debug=True)
