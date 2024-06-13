@@ -100,7 +100,19 @@ def process_webcam():
         logging.error("Erro ao abrir a webcam")
         return
 
+    # Define a resolução desejada (modo paisagem 16:9)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 360)
+
     logging.info("Iniciando processamento da webcam")
+
+    vagas_estacionamento_webcam = [
+        [182, 198, 80, 142],
+        [274, 200, 92, 143],
+        [374, 205, 97, 133],
+    ]
+
+    estado_anterior = [0] * len(vagas_estacionamento_webcam)
 
     while webcam_flag:
         ret, img = cap.read()
@@ -113,6 +125,28 @@ def process_webcam():
         imgBlur = cv2.medianBlur(imgTh, 5)
         kernel = np.ones((3, 3), np.int8)
         imgDil = cv2.dilate(imgBlur, kernel)
+
+        qtVagasAbertas = 0
+        for i, (x, y, w, h) in enumerate(vagas_estacionamento_webcam):
+            recorte = imgDil[y:y+h, x:x+w]
+            qtPxBranco = cv2.countNonZero(recorte)
+            cv2.putText(img, str(qtPxBranco), (x, y+h-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+
+            if qtPxBranco > 1000 and estado_anterior[i] == 0:
+                logging.info(f'Webcam - Vaga {i+1} preenchida.')
+                estado_anterior[i] = 1
+            elif qtPxBranco <= 3000 and estado_anterior[i] == 1:
+                logging.info(f'Webcam - Vaga {i+1} liberada.')
+                estado_anterior[i] = 0
+
+            if qtPxBranco <= 1000:
+                cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 3)
+                qtVagasAbertas += 1
+            else:
+                cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 3)
+
+        cv2.rectangle(img, (90, 0), (300, 60), (255, 0, 0), -1)
+        cv2.putText(img, f'LIVRE: {qtVagasAbertas}/{len(vagas_estacionamento_webcam)}', (95, 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 5)
 
         ret, jpeg = cv2.imencode('.jpg', img)
         frame = jpeg.tobytes()
@@ -159,7 +193,6 @@ def video_feed(index):
 def webcam_feed():
     global webcam_flag
     webcam_flag = True
-    threading.Thread(target=process_webcam).start()
     return Response(process_webcam(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/stop_webcam', methods=['POST'])
