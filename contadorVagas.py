@@ -6,7 +6,14 @@ import threading
 
 app = Flask(__name__)
 
+class VagaLogFilter(logging.Filter):
+    def filter(self, record):
+        return 'preenchida' in record.msg or 'liberada' in record.msg
+
 logging.basicConfig(filename='parking_log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
+vaga_log_filter = VagaLogFilter()
+logger = logging.getLogger()
+logger.addFilter(vaga_log_filter)
 
 vagas_estacionamentos2 = [
     [563, 381, 95, 203],
@@ -51,12 +58,9 @@ def process_video(index):
             logging.error(f"Erro ao abrir o vídeo: {video_path}")
             return
 
-        logging.info(f"Iniciando processamento do vídeo: {video_path}")
-
         while process_video_flags[index]:
             ret, img = video.read()
             if not ret:
-                logging.info(f"Fim do vídeo: {video_path}")
                 break
 
             imgCinza = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -104,8 +108,6 @@ def process_webcam():
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 360)
 
-    logging.info("Iniciando processamento da webcam")
-
     vagas_estacionamento_webcam = [
         [182, 198, 80, 142],
         [274, 200, 92, 143],
@@ -117,7 +119,6 @@ def process_webcam():
     while webcam_flag:
         ret, img = cap.read()
         if not ret:
-            logging.info("Erro ao capturar imagem da webcam")
             break
 
         imgCinza = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -135,7 +136,7 @@ def process_webcam():
             if qtPxBranco > 1000 and estado_anterior[i] == 0:
                 logging.info(f'Webcam - Vaga {i+1} preenchida.')
                 estado_anterior[i] = 1
-            elif qtPxBranco <= 3000 and estado_anterior[i] == 1:
+            elif qtPxBranco <= 1000 and estado_anterior[i] == 1:
                 logging.info(f'Webcam - Vaga {i+1} liberada.')
                 estado_anterior[i] = 0
 
