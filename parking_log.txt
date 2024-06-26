@@ -2444,3 +2444,889 @@
 2024-06-03 21:05:55,106 - Iniciando processamento do vídeo: static/video2.mp4
 2024-06-03 21:05:55,137 - Estacionamento 2 - Vaga 1 liberada.
 2024-06-03 21:05:55,600 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:21:37,394 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 19:21:37,394 - [33mPress CTRL+C to quit[0m
+2024-06-25 19:21:37,397 -  * Restarting with stat
+2024-06-25 19:21:38,528 -  * Debugger is active!
+2024-06-25 19:21:38,528 -  * Debugger PIN: 847-979-700
+2024-06-25 19:21:40,946 - 127.0.0.1 - - [25/Jun/2024 19:21:40] "GET /login HTTP/1.1" 200 -
+2024-06-25 19:21:41,070 - 127.0.0.1 - - [25/Jun/2024 19:21:41] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 19:21:41,073 - 127.0.0.1 - - [25/Jun/2024 19:21:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 19:21:41,075 - 127.0.0.1 - - [25/Jun/2024 19:21:41] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 19:21:41,084 - 127.0.0.1 - - [25/Jun/2024 19:21:41] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 19:21:41,096 - 127.0.0.1 - - [25/Jun/2024 19:21:41] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 19:21:41,102 - 127.0.0.1 - - [25/Jun/2024 19:21:41] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 19:21:44,845 - 127.0.0.1 - - [25/Jun/2024 19:21:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 19:21:44,856 - 127.0.0.1 - - [25/Jun/2024 19:21:44] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:21:47,915 - 127.0.0.1 - - [25/Jun/2024 19:21:47] "POST /start/1 HTTP/1.1" 200 -
+2024-06-25 19:21:48,131 - 127.0.0.1 - - [25/Jun/2024 19:21:48] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-25 19:21:49,786 - 127.0.0.1 - - [25/Jun/2024 19:21:49] "POST /start/0 HTTP/1.1" 200 -
+2024-06-25 19:21:49,848 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-25 19:21:49,848 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-25 19:21:49,861 - 127.0.0.1 - - [25/Jun/2024 19:21:49] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-25 19:21:54,704 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:21:55,620 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:22:01,808 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:22:05,067 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:22:07,244 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:22:11,618 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:22:13,801 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:22:19,334 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:22:22,168 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:22:25,861 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:22:28,869 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:22:31,258 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:22:37,589 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:22:39,111 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:22:43,032 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:22:45,522 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:22:49,108 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:22:54,683 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:22:56,062 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:23:01,307 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:23:02,795 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:23:06,818 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:23:12,820 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:23:12,878 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:23:18,245 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:23:19,388 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:23:24,762 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:23:30,293 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:23:30,814 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:23:36,649 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:23:36,884 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:23:42,108 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:23:46,390 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:23:47,969 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:23:52,883 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:23:53,463 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:23:59,801 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:24:03,116 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:24:05,054 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:24:09,607 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:24:11,397 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:24:17,013 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:24:19,941 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:24:23,572 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:24:26,597 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:24:28,782 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:24:34,877 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:24:36,507 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:24:40,324 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:24:43,018 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:24:46,620 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:24:51,907 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:24:53,425 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:24:58,105 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:24:59,690 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:25:03,308 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:25:09,585 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:25:09,757 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:25:14,852 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:25:16,137 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:25:21,382 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:25:26,548 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:25:26,837 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:25:32,841 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:25:32,853 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:25:38,281 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:25:42,991 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:25:44,521 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:25:49,446 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:25:49,903 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:25:55,975 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:25:59,279 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:26:01,139 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:26:05,751 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:26:07,528 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:26:12,907 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:26:15,928 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:26:19,020 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:26:22,314 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:26:24,282 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:26:30,219 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:26:32,057 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:26:35,410 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:26:38,346 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:26:41,371 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:26:46,605 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:26:48,080 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:26:52,625 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:26:54,339 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:26:57,864 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:27:03,837 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:27:04,165 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:27:09,050 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:27:10,384 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:27:15,197 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:27:20,743 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:27:20,758 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:27:26,815 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:27:27,089 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:27:32,254 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:27:37,446 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:27:38,746 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:27:43,841 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:27:44,030 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:27:50,097 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:27:53,703 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:27:55,297 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:27:59,970 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:28:01,323 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:28:06,640 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:28:09,809 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:28:12,721 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:28:16,115 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:28:17,914 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:28:23,891 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:28:25,862 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:28:29,093 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:28:32,206 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:28:35,342 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:28:40,738 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:28:42,420 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:28:46,649 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:28:48,653 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:28:51,903 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:28:57,863 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:28:58,379 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:29:03,074 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:29:04,698 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:29:09,090 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:29:14,430 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:29:14,508 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:29:20,484 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:29:20,819 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:29:25,674 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:29:30,555 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:29:31,593 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:29:36,832 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:29:36,868 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:29:42,855 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:29:46,700 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:29:48,099 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:29:52,920 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:29:54,078 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:29:59,251 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:30:02,645 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:30:05,320 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:30:09,009 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:30:10,662 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:30:16,582 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:30:18,878 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:30:22,222 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:30:25,993 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:30:29,009 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:30:34,772 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:30:36,837 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:30:41,211 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:30:43,546 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:30:47,090 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:30:53,446 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:30:54,148 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:30:58,956 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:31:00,652 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:31:05,110 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:31:10,506 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:31:10,834 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:31:17,382 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:31:17,952 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:31:22,745 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:31:28,026 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:31:28,915 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:31:34,838 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:31:35,047 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:31:41,675 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:31:46,292 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:31:47,789 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:31:53,622 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:31:54,909 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:32:01,111 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:32:04,932 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:32:08,046 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:32:11,821 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:32:13,580 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:32:20,288 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:32:22,655 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:32:25,705 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:32:29,021 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:32:31,739 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:32:37,021 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:32:38,855 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:32:43,005 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:32:45,122 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:32:48,355 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:32:54,555 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:32:55,322 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:32:59,821 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:33:01,571 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:33:05,855 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:33:11,121 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:33:11,371 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:33:17,272 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:33:17,738 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:33:22,855 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:33:28,022 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:33:28,921 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:33:34,188 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:33:34,338 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:33:40,321 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:33:44,254 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:33:45,604 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:33:50,705 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:33:51,754 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:33:57,171 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:34:00,655 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:34:03,205 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:34:06,988 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:34:08,454 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:34:14,604 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:34:16,954 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:34:19,904 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:34:23,379 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:34:26,228 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:34:31,606 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:34:33,595 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:34:37,575 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:34:39,896 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:34:42,909 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:34:48,862 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:34:49,691 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:34:54,117 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:34:55,989 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 19:35:00,158 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:35:05,494 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:35:06,056 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 19:35:08,528 - 127.0.0.1 - - [25/Jun/2024 19:35:08] "POST /stop/1 HTTP/1.1" 200 -
+2024-06-25 19:35:11,838 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:35:16,919 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:35:22,723 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:35:27,838 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:35:33,652 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:35:38,713 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:35:44,540 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:35:49,605 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:35:55,403 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:36:00,422 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:36:06,235 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 19:36:11,299 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 19:36:13,517 - 127.0.0.1 - - [25/Jun/2024 19:36:13] "POST /stop/0 HTTP/1.1" 200 -
+2024-06-25 19:47:10,203 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 19:47:10,203 - [33mPress CTRL+C to quit[0m
+2024-06-25 19:47:10,220 -  * Restarting with stat
+2024-06-25 19:47:11,404 -  * Debugger is active!
+2024-06-25 19:47:11,410 -  * Debugger PIN: 847-979-700
+2024-06-25 19:47:14,587 - 127.0.0.1 - - [25/Jun/2024 19:47:14] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:47:14,629 - 127.0.0.1 - - [25/Jun/2024 19:47:14] "[33mGET /img_girl.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:47:15,231 - 127.0.0.1 - - [25/Jun/2024 19:47:15] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:47:15,257 - 127.0.0.1 - - [25/Jun/2024 19:47:15] "[33mGET /img_girl.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:47:15,547 - 127.0.0.1 - - [25/Jun/2024 19:47:15] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:47:15,572 - 127.0.0.1 - - [25/Jun/2024 19:47:15] "[33mGET /img_girl.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:51:30,780 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 19:51:30,781 - [33mPress CTRL+C to quit[0m
+2024-06-25 19:51:30,785 -  * Restarting with stat
+2024-06-25 19:51:31,972 -  * Debugger is active!
+2024-06-25 19:51:31,972 -  * Debugger PIN: 847-979-700
+2024-06-25 19:51:33,871 - 127.0.0.1 - - [25/Jun/2024 19:51:33] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:51:33,900 - 127.0.0.1 - - [25/Jun/2024 19:51:33] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:51:36,125 - 127.0.0.1 - - [25/Jun/2024 19:51:36] "POST /start/1 HTTP/1.1" 200 -
+2024-06-25 19:51:36,185 - 127.0.0.1 - - [25/Jun/2024 19:51:36] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-25 19:51:37,922 - 127.0.0.1 - - [25/Jun/2024 19:51:37] "GET /login HTTP/1.1" 200 -
+2024-06-25 19:51:42,196 - 127.0.0.1 - - [25/Jun/2024 19:51:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 19:51:42,207 - 127.0.0.1 - - [25/Jun/2024 19:51:42] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:51:42,236 - 127.0.0.1 - - [25/Jun/2024 19:51:42] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:51:58,991 - 127.0.0.1 - - [25/Jun/2024 19:51:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 19:51:59,001 - 127.0.0.1 - - [25/Jun/2024 19:51:59] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:51:59,032 - 127.0.0.1 - - [25/Jun/2024 19:51:59] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:53:29,476 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 19:53:29,477 - [33mPress CTRL+C to quit[0m
+2024-06-25 19:53:29,479 -  * Restarting with stat
+2024-06-25 19:53:30,580 -  * Debugger is active!
+2024-06-25 19:53:30,580 -  * Debugger PIN: 847-979-700
+2024-06-25 19:53:44,721 - 127.0.0.1 - - [25/Jun/2024 19:53:44] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:53:44,767 - 127.0.0.1 - - [25/Jun/2024 19:53:44] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:53:45,348 - 127.0.0.1 - - [25/Jun/2024 19:53:45] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:53:45,375 - 127.0.0.1 - - [25/Jun/2024 19:53:45] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:53:51,340 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 19:53:51,341 - [33mPress CTRL+C to quit[0m
+2024-06-25 19:53:51,343 -  * Restarting with stat
+2024-06-25 19:53:52,523 -  * Debugger is active!
+2024-06-25 19:53:52,529 -  * Debugger PIN: 847-979-700
+2024-06-25 19:53:53,154 - 127.0.0.1 - - [25/Jun/2024 19:53:53] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:53:53,189 - 127.0.0.1 - - [25/Jun/2024 19:53:53] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:53:53,799 - 127.0.0.1 - - [25/Jun/2024 19:53:53] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:53:53,834 - 127.0.0.1 - - [25/Jun/2024 19:53:53] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:53:54,086 - 127.0.0.1 - - [25/Jun/2024 19:53:54] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:53:54,111 - 127.0.0.1 - - [25/Jun/2024 19:53:54] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:54:25,014 - 127.0.0.1 - - [25/Jun/2024 19:54:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 19:54:25,023 - 127.0.0.1 - - [25/Jun/2024 19:54:25] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:54:25,055 - 127.0.0.1 - - [25/Jun/2024 19:54:25] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 19:54:42,380 - 127.0.0.1 - - [25/Jun/2024 19:54:42] "GET /menu HTTP/1.1" 200 -
+2024-06-25 19:54:42,406 - 127.0.0.1 - - [25/Jun/2024 19:54:42] "[33mGET /staticimg%0Bg.jpg HTTP/1.1[0m" 404 -
+2024-06-25 20:04:06,371 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 20:04:06,372 - [33mPress CTRL+C to quit[0m
+2024-06-25 20:04:06,375 -  * Restarting with stat
+2024-06-25 20:04:07,496 -  * Debugger is active!
+2024-06-25 20:04:07,502 -  * Debugger PIN: 847-979-700
+2024-06-25 20:04:16,737 - 127.0.0.1 - - [25/Jun/2024 20:04:16] "GET /menu HTTP/1.1" 200 -
+2024-06-25 20:04:16,839 - 127.0.0.1 - - [25/Jun/2024 20:04:16] "GET /static/img/bg.jpg HTTP/1.1" 200 -
+2024-06-25 20:04:34,043 - 127.0.0.1 - - [25/Jun/2024 20:04:34] "GET /menu HTTP/1.1" 200 -
+2024-06-25 20:04:34,077 - 127.0.0.1 - - [25/Jun/2024 20:04:34] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:04:38,957 - 127.0.0.1 - - [25/Jun/2024 20:04:38] "POST /start/0 HTTP/1.1" 200 -
+2024-06-25 20:04:39,004 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-25 20:04:39,004 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-25 20:04:39,020 - 127.0.0.1 - - [25/Jun/2024 20:04:39] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-25 20:04:43,269 - 127.0.0.1 - - [25/Jun/2024 20:04:43] "POST /start/1 HTTP/1.1" 200 -
+2024-06-25 20:04:43,326 - 127.0.0.1 - - [25/Jun/2024 20:04:43] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-25 20:04:44,141 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:04:49,914 - 127.0.0.1 - - [25/Jun/2024 20:04:49] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:04:49,957 - 127.0.0.1 - - [25/Jun/2024 20:04:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:04:49,969 - 127.0.0.1 - - [25/Jun/2024 20:04:49] "GET /static/css/theme.css HTTP/1.1" 200 -
+2024-06-25 20:04:49,972 - 127.0.0.1 - - [25/Jun/2024 20:04:49] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:04:49,981 - 127.0.0.1 - - [25/Jun/2024 20:04:49] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:04:49,989 - 127.0.0.1 - - [25/Jun/2024 20:04:49] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:04:49,995 - 127.0.0.1 - - [25/Jun/2024 20:04:49] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:05:25,639 - 127.0.0.1 - - [25/Jun/2024 20:05:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 20:05:25,644 - 127.0.0.1 - - [25/Jun/2024 20:05:25] "GET /menu HTTP/1.1" 200 -
+2024-06-25 20:05:25,688 - 127.0.0.1 - - [25/Jun/2024 20:05:25] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:05:28,406 - 127.0.0.1 - - [25/Jun/2024 20:05:28] "POST /start/0 HTTP/1.1" 200 -
+2024-06-25 20:05:28,468 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-25 20:05:28,469 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-25 20:05:28,488 - 127.0.0.1 - - [25/Jun/2024 20:05:28] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-25 20:05:33,549 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:05:39,800 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 20:05:44,803 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:05:50,629 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 20:05:55,491 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:06:01,209 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 20:06:06,037 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:06:11,680 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 20:06:16,502 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:06:22,284 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 20:06:27,131 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:06:32,851 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 20:06:37,865 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 20:06:39,479 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:06:39,521 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:06:39,527 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:06:39,534 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:06:39,542 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:06:39,552 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:06:39,555 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:06:39,571 - 127.0.0.1 - - [25/Jun/2024 20:06:39] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:16:51,185 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 20:16:51,185 - [33mPress CTRL+C to quit[0m
+2024-06-25 20:16:51,191 -  * Restarting with stat
+2024-06-25 20:16:52,484 -  * Debugger is active!
+2024-06-25 20:16:52,484 -  * Debugger PIN: 847-979-700
+2024-06-25 20:16:53,504 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:16:53,538 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[33mGET /static/img/pitpoint.jpg HTTP/1.1[0m" 404 -
+2024-06-25 20:16:53,720 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:16:53,734 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:16:53,740 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:16:53,740 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:16:53,745 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:16:53,745 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:16:53,759 - 127.0.0.1 - - [25/Jun/2024 20:16:53] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:16:54,463 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:16:54,489 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:16:54,494 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:16:54,501 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:16:54,506 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[33mGET /static/img/pitpoint.jpg HTTP/1.1[0m" 404 -
+2024-06-25 20:16:54,512 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:16:54,518 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:16:54,527 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:16:54,533 - 127.0.0.1 - - [25/Jun/2024 20:16:54] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:16:55,281 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:16:55,306 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:16:55,310 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:16:55,316 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:16:55,323 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[33mGET /static/img/pitpoint.jpg HTTP/1.1[0m" 404 -
+2024-06-25 20:16:55,366 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:16:55,372 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:16:55,380 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:16:55,386 - 127.0.0.1 - - [25/Jun/2024 20:16:55] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:17:42,774 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:17:42,808 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:17:42,814 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:17:42,819 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:17:42,825 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[33mGET /static/img/pitpoint.jpg HTTP/1.1[0m" 404 -
+2024-06-25 20:17:42,831 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:17:42,837 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:17:42,843 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:17:42,849 - 127.0.0.1 - - [25/Jun/2024 20:17:42] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:17:56,771 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:17:56,802 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:17:56,809 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:17:56,812 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:17:56,817 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "GET /static/img/pitpoint.png HTTP/1.1" 200 -
+2024-06-25 20:17:56,823 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:17:56,830 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:17:56,838 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:17:56,847 - 127.0.0.1 - - [25/Jun/2024 20:17:56] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:31:59,208 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:31:59,246 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:31:59,254 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:31:59,258 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "GET /static/img/log.png HTTP/1.1" 200 -
+2024-06-25 20:31:59,270 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:31:59,278 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:31:59,278 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:31:59,292 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:31:59,310 - 127.0.0.1 - - [25/Jun/2024 20:31:59] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,645 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:33:17,670 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,676 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,681 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,687 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,698 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,705 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,713 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:33:17,716 - 127.0.0.1 - - [25/Jun/2024 20:33:17] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:34:24,946 - 127.0.0.1 - - [25/Jun/2024 20:34:24] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:34:24,971 - 127.0.0.1 - - [25/Jun/2024 20:34:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:34:24,978 - 127.0.0.1 - - [25/Jun/2024 20:34:24] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:34:24,985 - 127.0.0.1 - - [25/Jun/2024 20:34:24] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:34:24,991 - 127.0.0.1 - - [25/Jun/2024 20:34:24] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 20:34:24,998 - 127.0.0.1 - - [25/Jun/2024 20:34:24] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:34:25,006 - 127.0.0.1 - - [25/Jun/2024 20:34:25] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:34:25,015 - 127.0.0.1 - - [25/Jun/2024 20:34:25] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:34:25,017 - 127.0.0.1 - - [25/Jun/2024 20:34:25] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,240 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:35:18,264 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,271 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,275 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,283 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,290 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,295 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,302 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:35:18,308 - 127.0.0.1 - - [25/Jun/2024 20:35:18] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,370 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:35:25,400 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,407 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,411 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,415 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,423 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,427 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,433 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:35:25,440 - 127.0.0.1 - - [25/Jun/2024 20:35:25] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,225 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:36:21,252 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,258 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,266 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,273 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,278 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,287 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,294 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:36:21,298 - 127.0.0.1 - - [25/Jun/2024 20:36:21] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:41:27,173 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 20:41:27,173 - [33mPress CTRL+C to quit[0m
+2024-06-25 20:41:27,176 -  * Restarting with stat
+2024-06-25 20:41:28,345 -  * Debugger is active!
+2024-06-25 20:41:28,351 -  * Debugger PIN: 847-979-700
+2024-06-25 20:59:31,574 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "GET /login HTTP/1.1" 200 -
+2024-06-25 20:59:31,765 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 20:59:31,775 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 20:59:31,777 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 20:59:31,786 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 20:59:31,789 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 20:59:31,791 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 20:59:31,792 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 20:59:31,795 - 127.0.0.1 - - [25/Jun/2024 20:59:31] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,324 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "GET /login HTTP/1.1" 200 -
+2024-06-25 21:01:15,353 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,359 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,366 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,374 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,379 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,393 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,396 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 21:01:15,402 - 127.0.0.1 - - [25/Jun/2024 21:01:15] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,066 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "GET /login HTTP/1.1" 200 -
+2024-06-25 21:01:16,098 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,103 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,107 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,114 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,118 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,123 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,129 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 21:01:16,139 - 127.0.0.1 - - [25/Jun/2024 21:01:16] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 21:02:36,939 - 127.0.0.1 - - [25/Jun/2024 21:02:36] "GET /login HTTP/1.1" 200 -
+2024-06-25 21:02:36,967 - 127.0.0.1 - - [25/Jun/2024 21:02:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 21:02:36,977 - 127.0.0.1 - - [25/Jun/2024 21:02:36] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 21:02:36,980 - 127.0.0.1 - - [25/Jun/2024 21:02:36] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 21:02:36,989 - 127.0.0.1 - - [25/Jun/2024 21:02:36] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 21:02:36,995 - 127.0.0.1 - - [25/Jun/2024 21:02:36] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 21:02:37,004 - 127.0.0.1 - - [25/Jun/2024 21:02:37] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 21:02:37,010 - 127.0.0.1 - - [25/Jun/2024 21:02:37] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 21:02:37,016 - 127.0.0.1 - - [25/Jun/2024 21:02:37] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,475 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "GET /login HTTP/1.1" 200 -
+2024-06-25 21:03:09,506 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,511 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,515 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,525 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,529 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,536 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,542 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 21:03:09,546 - 127.0.0.1 - - [25/Jun/2024 21:03:09] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,791 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "GET /login HTTP/1.1" 200 -
+2024-06-25 21:03:29,818 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,823 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,830 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,832 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,840 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,847 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,852 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 21:03:29,859 - 127.0.0.1 - - [25/Jun/2024 21:03:29] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:03:41,842 - 127.0.0.1 - - [25/Jun/2024 21:03:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 21:03:41,855 - 127.0.0.1 - - [25/Jun/2024 21:03:41] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:03:41,902 - 127.0.0.1 - - [25/Jun/2024 21:03:41] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:05:09,612 - 127.0.0.1 - - [25/Jun/2024 21:05:09] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:07:01,997 - 127.0.0.1 - - [25/Jun/2024 21:07:01] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:07:02,590 - 127.0.0.1 - - [25/Jun/2024 21:07:02] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:08:23,902 - 127.0.0.1 - - [25/Jun/2024 21:08:23] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:08:23,935 - 127.0.0.1 - - [25/Jun/2024 21:08:23] "GET /static/img/bghome.jpg HTTP/1.1" 200 -
+2024-06-25 21:09:18,448 - 127.0.0.1 - - [25/Jun/2024 21:09:18] "POST /start/0 HTTP/1.1" 200 -
+2024-06-25 21:09:18,554 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-25 21:09:18,554 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-25 21:09:18,568 - 127.0.0.1 - - [25/Jun/2024 21:09:18] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-25 21:09:22,079 - 127.0.0.1 - - [25/Jun/2024 21:09:22] "POST /start/1 HTTP/1.1" 200 -
+2024-06-25 21:09:22,146 - 127.0.0.1 - - [25/Jun/2024 21:09:22] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-25 21:09:23,753 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:09:28,947 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:09:30,749 - 127.0.0.1 - - [25/Jun/2024 21:09:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 21:09:30,757 - 127.0.0.1 - - [25/Jun/2024 21:09:30] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:09:30,795 - 127.0.0.1 - - [25/Jun/2024 21:09:30] "[36mGET /static/img/bghome.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:09:41,853 - 127.0.0.1 - - [25/Jun/2024 21:09:41] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:09:43,351 - 127.0.0.1 - - [25/Jun/2024 21:09:43] "POST /start/0 HTTP/1.1" 200 -
+2024-06-25 21:09:43,404 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-25 21:09:43,404 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-25 21:09:43,418 - 127.0.0.1 - - [25/Jun/2024 21:09:43] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-25 21:09:48,476 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:09:54,432 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:09:59,463 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:10:05,151 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:10:10,017 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:10:15,514 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:10:20,153 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:10:25,485 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:10:30,158 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:10:35,566 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:10:40,273 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:10:45,632 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:10:50,303 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:10:55,683 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:11:00,537 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:11:06,230 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:11:11,268 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:11:16,787 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:11:21,524 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:11:27,224 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:11:32,302 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:11:37,159 - 127.0.0.1 - - [25/Jun/2024 21:11:37] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:11:37,193 - 127.0.0.1 - - [25/Jun/2024 21:11:37] "GET /static/img/bghome.jpg HTTP/1.1" 200 -
+2024-06-25 21:11:40,398 - 127.0.0.1 - - [25/Jun/2024 21:11:40] "POST /start/1 HTTP/1.1" 200 -
+2024-06-25 21:11:40,458 - 127.0.0.1 - - [25/Jun/2024 21:11:40] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-25 21:11:46,481 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:11:55,680 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:12:01,700 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:12:10,785 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:12:16,835 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:12:26,187 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:12:32,120 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:12:41,552 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:12:47,697 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:12:57,005 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:13:02,943 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:13:12,432 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:13:18,358 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:13:27,620 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:13:33,370 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:13:42,782 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:13:48,641 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:13:57,736 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:14:03,493 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:14:12,772 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:14:18,887 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:14:29,865 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:14:35,869 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:14:45,010 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:14:51,299 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:15:00,992 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:15:06,705 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:15:16,034 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:15:21,995 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:15:31,228 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:15:37,382 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:15:46,455 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:15:52,365 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:16:01,864 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:16:07,867 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:16:17,045 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:16:23,154 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:16:32,260 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:16:37,948 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:16:42,594 - 127.0.0.1 - - [25/Jun/2024 21:16:42] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:16:42,626 - 127.0.0.1 - - [25/Jun/2024 21:16:42] "[36mGET /static/img/bghome.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:16:43,722 - 127.0.0.1 - - [25/Jun/2024 21:16:43] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:16:43,752 - 127.0.0.1 - - [25/Jun/2024 21:16:43] "[36mGET /static/img/bghome.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:18:09,959 - 127.0.0.1 - - [25/Jun/2024 21:18:09] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:18:09,993 - 127.0.0.1 - - [25/Jun/2024 21:18:09] "GET /static/img/bghome.jpg HTTP/1.1" 200 -
+2024-06-25 21:21:02,926 - 127.0.0.1 - - [25/Jun/2024 21:21:02] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:21:02,965 - 127.0.0.1 - - [25/Jun/2024 21:21:02] "GET /static/img/bghome.jpg HTTP/1.1" 200 -
+2024-06-25 21:25:22,757 - 127.0.0.1 - - [25/Jun/2024 21:25:22] "GET /login HTTP/1.1" 200 -
+2024-06-25 21:25:23,812 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "GET /login HTTP/1.1" 200 -
+2024-06-25 21:25:23,838 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-06-25 21:25:23,846 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2024-06-25 21:25:23,853 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2024-06-25 21:25:23,859 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/img/log.png HTTP/1.1[0m" 304 -
+2024-06-25 21:25:23,865 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-06-25 21:25:23,874 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 304 -
+2024-06-25 21:25:23,878 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/js/theme.js HTTP/1.1[0m" 304 -
+2024-06-25 21:25:23,887 - 127.0.0.1 - - [25/Jun/2024 21:25:23] "[36mGET /static/img/bg.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:25:48,512 - 127.0.0.1 - - [25/Jun/2024 21:25:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-25 21:25:48,522 - 127.0.0.1 - - [25/Jun/2024 21:25:48] "GET /menu HTTP/1.1" 200 -
+2024-06-25 21:25:48,557 - 127.0.0.1 - - [25/Jun/2024 21:25:48] "[36mGET /static/img/bghome.jpg HTTP/1.1[0m" 304 -
+2024-06-25 21:25:51,619 - 127.0.0.1 - - [25/Jun/2024 21:25:51] "POST /start/0 HTTP/1.1" 200 -
+2024-06-25 21:25:51,672 - Estacionamento 1 - Vaga 4 preenchida.
+2024-06-25 21:25:51,673 - Estacionamento 1 - Vaga 6 preenchida.
+2024-06-25 21:25:51,680 - 127.0.0.1 - - [25/Jun/2024 21:25:51] "GET /video_feed/0 HTTP/1.1" 200 -
+2024-06-25 21:25:56,709 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:26:02,496 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:26:07,597 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:26:13,065 - 127.0.0.1 - - [25/Jun/2024 21:26:13] "POST /start/1 HTTP/1.1" 200 -
+2024-06-25 21:26:13,123 - 127.0.0.1 - - [25/Jun/2024 21:26:13] "GET /video_feed/1 HTTP/1.1" 200 -
+2024-06-25 21:26:13,483 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:26:19,319 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:26:19,983 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:26:25,854 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:26:30,673 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:26:31,526 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:26:37,447 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:26:38,027 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:26:43,556 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:26:47,961 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:26:50,037 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:26:54,716 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:26:55,679 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:27:02,164 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:27:05,264 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:27:07,768 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:27:11,943 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:27:14,257 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:27:20,230 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:27:22,782 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:27:26,619 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:27:29,434 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:27:32,301 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:27:38,698 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:27:39,912 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:27:44,252 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:27:46,577 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:27:50,697 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:27:56,289 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:27:56,974 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:28:02,715 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:28:03,641 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:28:08,301 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:28:14,394 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:28:15,005 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:28:20,522 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:28:20,959 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:28:26,675 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:28:30,869 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:28:31,808 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:28:37,097 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:28:37,824 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:28:43,179 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:28:47,149 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:28:49,259 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:28:53,374 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:28:54,487 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:29:00,540 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:29:03,242 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:29:05,714 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:29:09,510 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:29:11,715 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:29:17,046 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:29:19,421 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:29:23,104 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:29:25,724 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:29:28,729 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:29:34,813 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:29:36,005 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:29:40,084 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:29:42,212 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:29:46,029 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:29:51,275 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:29:52,056 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:29:57,370 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:29:58,452 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:30:02,547 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:30:08,202 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:30:08,541 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:30:13,791 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:30:14,536 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:30:19,775 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:30:24,354 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:30:24,996 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:30:31,279 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:30:31,713 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:30:37,386 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:30:41,826 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:30:43,868 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:30:48,585 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:30:49,595 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:30:56,165 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:30:59,263 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:31:01,934 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:31:06,009 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:31:08,504 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:31:14,130 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:31:16,740 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:31:20,689 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:31:23,472 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:31:26,289 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:31:33,055 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:31:34,299 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:31:38,751 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:31:41,079 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:31:45,258 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:31:50,850 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:31:51,582 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:31:57,384 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:31:58,341 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:32:03,101 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:32:09,024 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:32:09,666 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:32:15,362 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:32:15,786 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:32:21,908 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:32:26,403 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:32:27,501 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:32:33,135 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:32:34,058 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:32:39,973 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:32:44,057 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:32:46,535 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:32:50,774 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:32:52,224 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:32:58,703 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:33:01,427 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:33:04,349 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:33:08,154 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:33:10,865 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:33:16,508 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:33:18,708 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:33:22,980 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:33:25,481 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:33:28,623 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:33:35,113 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:33:35,965 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:33:40,733 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:33:42,631 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:33:47,150 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:33:52,794 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:33:53,070 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:33:59,356 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:33:59,869 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:34:04,972 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:34:10,368 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:34:11,457 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:34:17,107 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:34:17,107 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:34:23,651 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:34:27,823 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:34:29,493 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:34:34,815 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:34:36,005 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:34:41,573 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:34:45,208 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:34:48,001 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:34:51,883 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:34:53,979 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:35:00,751 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:35:03,283 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:35:06,589 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:35:10,104 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:35:12,965 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:35:18,472 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:35:20,312 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:35:24,799 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:35:26,998 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:35:30,347 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:35:36,669 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:35:37,279 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:35:42,004 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:35:43,772 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:35:48,075 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:35:53,273 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:35:53,559 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:35:59,345 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:35:59,861 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:36:04,563 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:36:09,721 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:36:10,574 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:36:15,848 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:36:16,083 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:36:21,866 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:36:25,889 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:36:27,039 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:36:32,174 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:36:33,020 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:36:38,169 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:36:41,978 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:36:44,209 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:36:48,096 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:36:49,338 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:36:55,341 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:36:57,885 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:37:00,517 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:37:04,040 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:37:06,442 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:37:11,582 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:37:13,797 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:37:17,531 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:37:19,979 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:37:22,678 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:37:28,640 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:37:29,794 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:37:34,155 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:37:36,252 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:37:40,185 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:37:45,358 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:37:46,089 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:37:51,256 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:37:52,273 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:37:56,530 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:38:02,119 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:38:02,572 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:38:07,816 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:38:08,443 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:38:13,810 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:38:18,280 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:38:19,082 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:38:24,530 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:38:25,055 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:38:30,230 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:38:34,310 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:38:36,232 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:38:40,577 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:38:41,402 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:38:47,339 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:38:50,285 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:38:52,460 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:38:56,489 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:38:58,470 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:39:03,702 - Estacionamento 1 - Vaga 5 preenchida.
+2024-06-25 21:39:06,610 - Estacionamento 2 - Vaga 1 liberada.
+2024-06-25 21:39:10,229 - Estacionamento 1 - Vaga 5 liberada.
+2024-06-25 21:39:13,613 - Estacionamento 2 - Vaga 1 preenchida.
+2024-06-25 21:39:17,129 - Estacionamento 1 - Vaga 5 preenchida.

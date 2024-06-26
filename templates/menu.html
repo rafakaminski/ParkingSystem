@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitoramento de Vagas</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        body {
+            background-image: url("static/img/bghome.jpg");
+            
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-size: cover; 
+        }
+
         .video-feed {
-            width: 640px; 
-            height: 360px;  
+            width: 640px;
+            height: 360px;
             object-fit: cover;
         }
     </style>
 </head>
+
 <body>
     <div class="container mt-5">
         <h1 class="text-center">Monitoramento de Vagas</h1>
 
         <ul class="nav nav-tabs" id="parkingTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="estacionamento1-tab" data-toggle="tab" href="#estacionamento1" role="tab" aria-controls="estacionamento1" aria-selected="true">Estacionamento 1</a>
+                <a class="nav-link active" id="estacionamento1-tab" data-toggle="tab" href="#estacionamento1" role="tab"
+                    aria-controls="estacionamento1" aria-selected="true">Estacionamento 1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="estacionamento2-tab" data-toggle="tab" href="#estacionamento2" role="tab" aria-controls="estacionamento2" aria-selected="false">Estacionamento 2</a>
+                <a class="nav-link" id="estacionamento2-tab" data-toggle="tab" href="#estacionamento2" role="tab"
+                    aria-controls="estacionamento2" aria-selected="false">Estacionamento 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="webcam-tab" data-toggle="tab" href="#webcam" role="tab" aria-controls="webcam" aria-selected="false">Webcam</a>
+                <a class="nav-link" id="webcam-tab" data-toggle="tab" href="#webcam" role="tab" aria-controls="webcam"
+                    aria-selected="false">Webcam</a>
             </li>
         </ul>
         <div class="tab-content" id="parkingTabContent">
-            <div class="tab-pane fade show active" id="estacionamento1" role="tabpanel" aria-labelledby="estacionamento1-tab">
+            <div class="tab-pane fade show active" id="estacionamento1" role="tabpanel"
+                aria-labelledby="estacionamento1-tab">
                 <div class="text-center mt-3">
                     <div class="btn-group" role="group" aria-label="Basic example">
                         <button type="button" class="btn btn-success" onclick="startProcessing(0)">Iniciar</button>
@@ -105,4 +119,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
