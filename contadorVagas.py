@@ -109,9 +109,10 @@ def process_webcam():
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 360)
 
     vagas_estacionamento_webcam = [
-        [182, 198, 80, 142],
-        [274, 200, 92, 143],
-        [374, 205, 97, 133],
+        [152, 193, 79, 149],
+        [242, 189, 77, 152],
+        [328, 192, 82, 150],
+        [418, 190, 80, 155],
     ]
 
     estado_anterior = [0] * len(vagas_estacionamento_webcam)
